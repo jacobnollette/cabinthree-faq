@@ -1,3 +1,3 @@
-- Take umbrellas down at night and place them in the deck box. Wind can take them.
-- Take umbrellas down in windy conditions and before you leave.
+- If you are not actively using the umbrella, take it down and place it in the deck box (day or night).
+- Sudden wind can catch the umbrella and break the picture window.
 - Umbrella and cushions should hopefully be dry before you put them back in the deck box - otherwise leave them out — umbrella could be on the ground of the deck
