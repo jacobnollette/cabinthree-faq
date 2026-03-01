@@ -19,6 +19,6 @@
 - [Printer - Scanner](FAQ/Printer%20-%20Scanner.md)
 - [Septic and drains](FAQ/Septic%20and%20drains.md)
 - [TV - Video - Audio](FAQ/TV%20-%20Video%20-%20Audio.md)
-- [Vaccuum](FAQ/Vaccuum.md)
+- [Vacuum](FAQ/Vacuum.md)
 - [Weather](FAQ/Weather.md)
 - [Work](FAQ/Work.md)

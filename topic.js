@@ -16,7 +16,7 @@ const TOPIC_MAP = {
   'printer-scanner': { title: 'Printer - Scanner', file: 'FAQ/Printer - Scanner.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
   'tv-video-audio': { title: 'TV - Video - Audio', file: 'FAQ/TV - Video - Audio.md' },
-  vaccuum: { title: 'Vaccuum', file: 'FAQ/Vaccuum.md' },
+  vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
   weather: { title: 'Weather', file: 'FAQ/Weather.md' },
   work: { title: 'Work', file: 'FAQ/Work.md' }
 };
