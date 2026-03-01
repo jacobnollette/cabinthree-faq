@@ -1,7 +1,3 @@
----
-notion-id: 2539fb61-1022-800e-81fb-c7b388ebe354
-base: "[[FAQ.base]]"
----
 - The umbrella must be put down in:
     - Windy conditions
     - Before you leave

@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-8037-9a02-d7a15efdf420
-base: "[[FAQ.base]]"
----
 - Please do not plug a car into the outside wall socket - we have a tesla universal charger, and that should cover basically all recent cars
 - We are on peak metering, so please try to charge during these times
     - monday - thursday: charge after 10pm, or before 4pm
@@ -16,4 +12,4 @@ base: "[[FAQ.base]]"
 
 # How to use Tesla Universal Charger
 
-![[77877495401__0F733FCF-0E77-4B02-80FF-A2E1E5F8065C.mov]]
+Video walkthrough was included in the original Notion export, but the media file is not present in this repository.

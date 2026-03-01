@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-806d-826f-e82b8b8d387b
-base: "[[FAQ.base]]"
----
 - Don’t use the smoker - its messy.
 - Mindful of scraping down the griddle - keep the scraper flat, and try not to dig the corners into the seasoning (advice 🙂 )
 - If run out of gas, but a new one (if possible), and let Jacob know to Venmo you money 🙂

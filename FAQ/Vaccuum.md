@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-8075-9f45-cfb13e16c03f
-base: "[[FAQ.base]]"
----
 - Wireless vacuum is in main bedroom closet
 - Careful when removing it - you angle it out from bottom and slide down
 - Its basically a large dust buster with attachments

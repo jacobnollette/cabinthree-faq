@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-805d-bea8-ef53a8c02af8
-base: "[[FAQ.base]]"
----
 - <u>**If you any water leaking on the vent blades, on the blinds, or on the floor below the mini split, turn it off, and contact us.**</u>
 - You can control the mini split via the remote on the wall, or if you want to schedule things, or have a more even heat, we do have a smart home system to control the heat, via the home assistant app.
 - The home assistant app should have a button for a adaptive climate — this uses multiple sensors to keep even heating/cooling — best used with all fans on (it helps a lot!)

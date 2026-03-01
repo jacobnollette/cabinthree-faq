@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-80e7-a51d-d75a1e7a6e8d
-base: "[[FAQ.base]]"
----
 - Free to log in to any video app or audio app on the apple tv, but do no log out of icloud - so apple music and apple tv (app) can unfortunately not be changed (please)
 - Feel free to log out of any app except icloud (apple tv, music)
 - Do not download new apps

@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-809b-9650-fc0930ef3d3c
-base: "[[FAQ.base]]"
----
 - Theres a fire extinguisher on the metal rack in the porch, and hoses on opposite sides of the cabin
 - Solo stove if awesome! take care of it!
 - Dont let the sparks or intense heat kill the trees above the solo stove, or fires down by the beach

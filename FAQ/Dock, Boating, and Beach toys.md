@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-8021-9560-f87675bcf2cc
-base: "[[FAQ.base]]"
----
 - Free to use our kayaks
 - Motor boats are off limits
 - Do not park on our docks

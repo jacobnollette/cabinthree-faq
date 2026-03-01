@@ -1,5 +1,7 @@
 # Cabin Three FAQ
 
+Quick links for guests.
+
 ## Topics
 
 - [@ Home Assistant](FAQ/@%20Home%20Assistant.md)

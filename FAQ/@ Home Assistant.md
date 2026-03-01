@@ -1,7 +1,3 @@
----
-notion-id: 2529fb61-1022-8002-9f7c-d01fadbc84b6
-base: "[[FAQ.base]]"
----
 - Home assistant is a mobile app that we use to control the home.
 - Using is optional, but provides things like controlling the deck lights, and using a more accurate climate control
 - Download the home assistant app from app store - open it while on the beachhaus network
