@@ -1,5 +1,3 @@
-- The umbrella must be put down in:
-    - Windy conditions
-    - Before you leave
-    - Over night
+- Take umbrellas down at night and place them in the deck box. Wind can take them.
+- Take umbrellas down in windy conditions and before you leave.
 - Umbrella and cushions should hopefully be dry before you put them back in the deck box - otherwise leave them out — umbrella could be on the ground of the deck
