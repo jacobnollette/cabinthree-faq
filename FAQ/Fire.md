@@ -1,0 +1,21 @@
+---
+notion-id: 2529fb61-1022-809b-9650-fc0930ef3d3c
+base: "[[FAQ.base]]"
+---
+- Theres a fire extinguisher on the metal rack in the porch, and hoses on opposite sides of the cabin
+- Solo stove if awesome! take care of it!
+- Dont let the sparks or intense heat kill the trees above the solo stove, or fires down by the beach
+- Dont let smoke disrupt neighbors
+- Dont have fires when there are fire bans for either fire conditions or air quality
+- You must only burn DNR approved wood, or stuff you find on our property - please collect sticks!
+- It is okay to burn paper from home
+- No cans, plastic, or food in the solo
+- Fine to roast mallows or hotdogs on a stick on the solo
+- No water in solo - do not rinse it out
+- when you are done for the night, put the metal lid squarely over the solo (without the spark over inbetween)
+- Empty and drench the ashes into the garden by the swing and faucet
+- Do not use the common firepit when cabins are occupied nearby
+- No lighter fluid in Solo — and very carefully in the common pit
+- No big fires - it is okay to keep it very well contained, and manageable amount of sparks and smoke - alternate dry wood with smokey things to keep fire less disruptive or dangerous!
+- Fire in approved areas only
+- Fire with approved devices only

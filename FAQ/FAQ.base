@@ -1,0 +1,13 @@
+# FAQ
+
+filters:
+  and:
+    - note["base"] == link("FAQ.base")
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
