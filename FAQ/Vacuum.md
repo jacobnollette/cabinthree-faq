@@ -8,5 +8,6 @@
 
 Video tutorials:
 
-- [Dyson vacuum tutorial - basic training - day one (YouTube Short)](https://www.youtube.com/shorts/cBRnwyKxj9A)
-- [Dyson vacuum tutorial - basic training - day two (YouTube Short)](https://www.youtube.com/shorts/oKgUVgPpVX0)
+![Dyson vacuum tutorial - basic training - day one](https://www.youtube.com/shorts/cBRnwyKxj9A)
+
+![Dyson vacuum tutorial - basic training - day two](https://www.youtube.com/shorts/oKgUVgPpVX0)

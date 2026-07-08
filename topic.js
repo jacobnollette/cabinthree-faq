@@ -21,6 +21,53 @@ const TOPIC_MAP = {
   work: { title: 'Work', file: 'FAQ/Work.md' }
 };
 
+const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
+
+// Markdown image syntax pointing at a YouTube Short becomes an inline player:
+//   ![Title](https://www.youtube.com/shorts/VIDEO_ID)
+// Regular [text](url) links are left untouched. See CLAUDE.md.
+function upgradeShortsEmbeds(root) {
+  root.querySelectorAll('img').forEach((img) => {
+    const src = img.getAttribute('src') || '';
+    const label = img.getAttribute('alt') || '';
+    const match = src.match(SHORTS_URL_RE);
+
+    if (!match) {
+      // Any other YouTube URL in image syntax degrades to a plain link
+      // instead of a broken <img>. The site only embeds Shorts.
+      if (/youtube\.com|youtu\.be/.test(src)) {
+        const link = document.createElement('a');
+        link.href = src;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = label || src;
+        img.replaceWith(link);
+      }
+      return;
+    }
+
+    const figure = document.createElement('figure');
+    figure.className = 'shorts-player';
+
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube-nocookie.com/embed/${match[1]}?playsinline=1`;
+    iframe.title = label || 'YouTube Short';
+    iframe.loading = 'lazy';
+    iframe.allow = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    figure.appendChild(iframe);
+
+    if (label) {
+      const caption = document.createElement('figcaption');
+      caption.textContent = label;
+      figure.appendChild(caption);
+    }
+
+    img.replaceWith(figure);
+  });
+}
+
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('topic') || 'internet-wifi';
 const topic = TOPIC_MAP[slug];
@@ -57,6 +104,7 @@ if (!topic) {
       }
       if (window.marked) {
         contentEl.innerHTML = window.marked.parse(markdown);
+        upgradeShortsEmbeds(contentEl);
       } else {
         contentEl.textContent = markdown;
       }

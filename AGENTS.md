@@ -8,6 +8,9 @@ This repository is a cleaned Notion export for a simple static FAQ site hosted o
 - Do not re-introduce Notion metadata blocks such as `notion-id`, `base`, or Notion database view files.
 - Do not use Notion-style embeds like `![[...]]`; replace with standard Markdown links or plain text notes.
 - Preserve existing FAQ wording unless a user asks for copy edits.
+- Embed video tutorials as YouTube Shorts using image syntax
+  `![Title](https://www.youtube.com/shorts/<id>)` — `topic.js` renders these
+  as inline Shorts players. Shorts only, no long-form videos. See `CLAUDE.md`.
 
 ## Site Structure
 - `index.md` is the GitHub Pages landing page.
