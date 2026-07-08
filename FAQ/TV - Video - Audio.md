@@ -7,3 +7,5 @@
 - Do not adjust color settings on the tv
 - Do not spray the tv directly or use harsh chemicals - use orange woosh bottle to clean screen (woosh is not a multi purpose disinfectant), and apply a dry towel to reduce water beads - do not use water on any of our screens.
 - You can wipe down homepods or any screens with woosh
+
+Video tutorial: [How to operate the stereo (YouTube Short)](https://www.youtube.com/shorts/GGs4J1iz76s)

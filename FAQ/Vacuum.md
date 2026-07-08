@@ -6,4 +6,7 @@
 - Please empty it after a big cleaning
 - Do not use it on the grill, and we prefer its not used on messes that make it gunked up like potentially the stove - we have a shop vac in laundry house that can be used for heavy cleaning, like the smoker.
 
-Video tutorial: [How to use the Dyson vacuum (YouTube Short)](https://www.youtube.com/shorts/cBRnwyKxj9A)
+Video tutorials:
+
+- [Dyson vacuum tutorial - basic training - day one (YouTube Short)](https://www.youtube.com/shorts/cBRnwyKxj9A)
+- [Dyson vacuum tutorial - basic training - day two (YouTube Short)](https://www.youtube.com/shorts/oKgUVgPpVX0)
