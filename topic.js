@@ -68,6 +68,59 @@ function upgradeShortsEmbeds(root) {
   });
 }
 
+const ISSUE_TAG_RE = /^\s*\[!ISSUE\]\s*/;
+const ISSUE_CONTACT_EMAIL = 'jacob@jacobnollette.com';
+const REPO_URL = 'https://github.com/jacobnollette/cabinthree-faq';
+
+// Blockquotes that open with [!ISSUE] become "known issue" callouts:
+//   > [!ISSUE]
+//   > One of the water pitchers' lights doesn't turn on.
+// Each callout gets a warning badge and a footer inviting readers to email
+// Jacob or open a pull request if they know the fix. See CLAUDE.md.
+function upgradeIssueCallouts(root, topicTitle) {
+  root.querySelectorAll('blockquote').forEach((quote) => {
+    const firstPara = quote.querySelector('p');
+    if (!firstPara || !ISSUE_TAG_RE.test(firstPara.textContent)) {
+      return;
+    }
+
+    const firstText = firstPara.firstChild;
+    if (firstText && firstText.nodeType === Node.TEXT_NODE) {
+      firstText.textContent = firstText.textContent.replace(ISSUE_TAG_RE, '');
+    }
+    if (!firstPara.textContent.trim() && !firstPara.querySelector('*')) {
+      firstPara.remove();
+    }
+
+    const aside = document.createElement('aside');
+    aside.className = 'issue-callout';
+
+    const badge = document.createElement('p');
+    badge.className = 'issue-badge';
+    badge.textContent = '⚠️ Known issue — unsolved';
+    aside.appendChild(badge);
+
+    const body = document.createElement('div');
+    body.className = 'issue-body';
+    while (quote.firstChild) {
+      body.appendChild(quote.firstChild);
+    }
+    aside.appendChild(body);
+
+    const subject = encodeURIComponent(`Cabin Three FAQ fix: ${topicTitle}`);
+    const actions = document.createElement('p');
+    actions.className = 'issue-actions';
+    actions.innerHTML =
+      'Know the fix? ' +
+      `<a href="mailto:${ISSUE_CONTACT_EMAIL}?subject=${subject}">Email Jacob</a>` +
+      ' or ' +
+      `<a href="${REPO_URL}" target="_blank" rel="noopener">open a pull request</a>.`;
+    aside.appendChild(actions);
+
+    quote.replaceWith(aside);
+  });
+}
+
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('topic') || 'internet-wifi';
 const topic = TOPIC_MAP[slug];
@@ -105,6 +158,7 @@ if (!topic) {
       if (window.marked) {
         contentEl.innerHTML = window.marked.parse(markdown);
         upgradeShortsEmbeds(contentEl);
+        upgradeIssueCallouts(contentEl, topic.title);
       } else {
         contentEl.textContent = markdown;
       }

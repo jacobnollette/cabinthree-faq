@@ -41,3 +41,39 @@ Rules:
 - Put embeds after the topic's bullet list, introduced by a short line like
   `Video tutorial:` or `Video tutorials:`, with a blank line between each
   embed so each renders as its own player.
+
+## Known issues: `[!ISSUE]` callouts
+
+Unsolved problems around the cabin are tracked in the FAQ pages themselves
+using a blockquote that opens with `[!ISSUE]`:
+
+```markdown
+## Known issues
+
+> [!ISSUE]
+> We have two light-up water pitchers. One pitcher's light turns on, but the
+> other one's does not. We don't know the problem yet.
+>
+> ![issue - water pitchers (light!)](https://www.youtube.com/shorts/P3FepTbQTuk)
+```
+
+How it renders:
+
+- `upgradeIssueCallouts()` in `topic.js` converts the blockquote into an
+  `<aside class="issue-callout">` — an orange warning card with a
+  "⚠️ Known issue — unsolved" badge.
+- A footer is added automatically inviting readers to email Jacob
+  (`jacob@jacobnollette.com`, with a prefilled subject naming the topic) or
+  open a pull request against this repo if they know the fix. Don't hardcode
+  the email in FAQ markdown — it lives in `ISSUE_CONTACT_EMAIL` in `topic.js`.
+- Shorts embeds inside the callout work normally (the video documenting the
+  issue goes inside the blockquote).
+- Styling lives in `styles.css` under `.issue-callout`.
+
+Rules:
+
+- Group issue callouts under a `## Known issues` heading at the bottom of the
+  topic page.
+- One callout per issue. When an issue is solved, delete the callout and fold
+  the fix into the page's regular bullets.
+- Plain blockquotes without the `[!ISSUE]` marker are untouched.

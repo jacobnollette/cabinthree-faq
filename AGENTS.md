@@ -11,6 +11,9 @@ This repository is a cleaned Notion export for a simple static FAQ site hosted o
 - Embed video tutorials as YouTube Shorts using image syntax
   `![Title](https://www.youtube.com/shorts/<id>)` — `topic.js` renders these
   as inline Shorts players. Shorts only, no long-form videos. See `CLAUDE.md`.
+- Track unsolved problems as `> [!ISSUE]` blockquotes under a `## Known
+  issues` heading — `topic.js` renders these as warning callouts with a
+  contact footer. See `CLAUDE.md`.
 
 ## Site Structure
 - `index.md` is the GitHub Pages landing page.

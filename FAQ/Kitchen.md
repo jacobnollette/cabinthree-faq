@@ -7,3 +7,10 @@
 
 
 ![](https://www.youtube.com/shorts/ZHFnLO6W6h4)
+
+## Known issues
+
+> [!ISSUE]
+> We have two light-up water pitchers. One pitcher's light turns on, but the other one's does not. We don't know the problem yet.
+>
+> ![issue - water pitchers (light!)](https://www.youtube.com/shorts/P3FepTbQTuk)
