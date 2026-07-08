@@ -227,6 +227,26 @@ h1 {
   background: color-mix(in srgb, var(--accent), white 92%);
 }
 
+.shorts-player {
+  margin: 1.1rem 0 0.5rem;
+}
+
+.shorts-player iframe {
+  display: block;
+  width: min(315px, 100%);
+  aspect-ratio: 9 / 16;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  background: #000;
+}
+
+.shorts-player figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.88rem;
+  color: color-mix(in srgb, var(--ink), white 30%);
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   margin-top: 2rem;
