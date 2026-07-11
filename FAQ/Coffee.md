@@ -34,6 +34,7 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 ## Cleaning up
 
 - Lattes are a messy habit - please wipe down the counter and the machine with a damp rag
+- No parts from the espresso machine go in the dishwasher - rinse by hand only
 - Knock out the puck and rinse the portafilter and basket - no scrubbing needed, just knock the coffee oils off and let it drain. It goes back in the machine wet, since it gets used constantly
 - The basket is steel: don't bend it, and be careful where you set it so it doesn't scratch anything
 - The milk pitcher just needs a rinse (it's dishwasher safe too)
