@@ -10,6 +10,10 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.12.0 — 2026-07-11
+- Renamed the Bedrooms topic to Bedrooms, Sheets & Towels and split it into Bedrooms, Sheets, and Towels sections.
+- Added bedding guidance: spare sheets in each room, our "no need to wash — use the blue bags" preference, matching full/queen sheets to the right bed and where each set is stored, and keeping wet towels off the wood floors.
+
 ## 1.11.0 — 2026-07-11
 - Added this changelog, linked from the bottom of the homepage.
 - The whole topic card on the homepage is now clickable, not just the "Open topic" link, so it's easier to tap on a phone.
