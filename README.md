@@ -2,6 +2,8 @@
 
 Stylized static FAQ site for GitHub Pages.
 
+Live at: https://faq.cabinthree.info
+
 ## Files
 - `index.html`: homepage with topic cards
 - `topic.html`: reusable topic page shell
