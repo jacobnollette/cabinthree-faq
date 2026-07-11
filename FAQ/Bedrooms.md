@@ -13,5 +13,6 @@
 
 ## Towels
 
+- Beach towels and extra towels are in both bedrooms - mostly in the secondary bedroom (the full bed near the living room). Extra hand towels are in the bathroom
 - Used towels can go in the blue bags too - we'll take care of them
 - Please keep wet towels off the wood floors - hang them up, or toss them in the shower to dry
