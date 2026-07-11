@@ -19,6 +19,9 @@ add an entry: PATCH for copy edits/corrections, MINOR for a new topic or
 feature, MAJOR only if a guest-facing URL breaks with no redirect fallback
 (slug renames add a `TOPIC_ALIASES` redirect, so they stay MINOR).
 
+The `update-changelog` skill (`.claude/skills/update-changelog/`) walks through
+this — invoke it when shipping a guest-facing change.
+
 ## Video tutorials: YouTube embeds
 
 To add a video tutorial to a topic page, use Markdown image syntax pointing at
