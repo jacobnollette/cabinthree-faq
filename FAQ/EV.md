@@ -2,4 +2,4 @@
 - Charge at night if you can. Overnight and weekend power is cheap (around 10¢/kWh - off-peak is after 10pm on weekdays, plus all weekend), so don't worry about paying us - just plug in before bed
 - If your car allows it, turn the charging speed down to around 20 amps (mid or low range). On a Fiat it's in the driver/charging profile; on a Tesla it's in the app. We've noticed some dirty power in the area, and gentler charging is easier on the grid - as long as the car is charged by morning, you're fine
 - Hang the cable back up when you're done, keep it untangled, and please don't step on it or roll anything over it
-- Fast charging nearby: superchargers in Bemidji, and CCS chargers in Walker (casino) and Detroit Lakes (Ford dealership)
+- Fast charging nearby: superchargers in Bemidji, and CCS chargers in Walker (casino), Detroit Lakes (Ford dealership), and Motley (very reliable)
