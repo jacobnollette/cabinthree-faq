@@ -1,0 +1,3 @@
+- If you are not actively using the deck umbrella, take it down and place it in the deck box (day or night). Sudden wind can catch the umbrella and break the picture window
+- Umbrella and cushions should be dry before they go back in the deck box - if they're damp, leave them out (the umbrella can lie on the deck)
+- The dock umbrella comes down every night too - wind can grab it, so lower and remove it, and keep it down in bad weather. Please don't assume someone else will

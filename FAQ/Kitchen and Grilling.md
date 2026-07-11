@@ -5,8 +5,13 @@
 - Coffee and a can of coffee (Tilly) are in the cupboard (above the blender)
 - Popcorn maker - above the stove - kernels in the cupboard to the right of the bathroom
 
-
 ![](https://www.youtube.com/shorts/ZHFnLO6W6h4)
+
+## Grilling
+
+- The Weber grill is yours to use. There's usually a spare propane tank around - if you empty one, please buy a replacement and send us the bill
+- Try to keep the cover on the grill when it rains. No one's perfect - just do your best
+- Please don't use the smoker on the deck - it's messy
 
 ## Known issues
 

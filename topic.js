@@ -1,16 +1,14 @@
 const TOPIC_MAP = {
-  'audio-video': { title: 'Audio Video', file: 'FAQ/Audio Video.md' },
   bedrooms: { title: 'Bedrooms', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
   coffee: { title: 'Coffee', file: 'FAQ/Coffee.md' },
-  deck: { title: 'Deck & Grill', file: 'FAQ/Deck.md' },
+  deck: { title: 'Deck & Umbrellas', file: 'FAQ/Deck and Umbrellas.md' },
   'dock-boating-beach': { title: 'Dock, Boating, and Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
-  'home-automation': { title: 'Home Automation', file: 'FAQ/Home Automation.md' },
-  kitchen: { title: 'Kitchen', file: 'FAQ/Kitchen.md' },
+  kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
   restaurants: { title: 'Around Town', file: 'FAQ/Around Town.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
@@ -22,13 +20,15 @@ const TOPIC_MAP = {
 
 // Old topic slugs from before the 2026 consolidation keep working
 const TOPIC_ALIASES = {
-  'home-assistant': 'home-automation',
-  lighting: 'home-automation',
+  'home-assistant': 'technology',
+  lighting: 'technology',
+  'home-automation': 'technology',
   'internet-wifi': 'technology',
   'printer-scanner': 'technology',
   work: 'technology',
-  grills: 'deck',
-  'tv-video-audio': 'audio-video'
+  grills: 'kitchen',
+  'tv-video-audio': 'technology',
+  'audio-video': 'technology'
 };
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
