@@ -83,6 +83,7 @@ function upgradeVideoEmbeds(root) {
 }
 
 const ISSUE_TAG_RE = /^\s*\[!ISSUE\]\s*/;
+const CONTRIBUTE_TAG_RE = /^\s*\[!CONTRIBUTE\]\s*/;
 const ISSUE_CONTACT_EMAIL = 'jacob@jacobnollette.com';
 const REPO_URL = 'https://github.com/jacobnollette/cabinthree-faq';
 
@@ -135,6 +136,50 @@ function upgradeIssueCallouts(root, topicTitle) {
   });
 }
 
+// Blockquotes that open with [!CONTRIBUTE] become a friendly invitation card:
+//   > [!CONTRIBUTE]
+//   > Know a spot we're missing? We'd love to hear it.
+// A footer inviting readers to email Jacob or open a pull request is added
+// automatically, using the same contact/repo as the issue callouts. See CLAUDE.md.
+function upgradeContributeCallouts(root, topicTitle) {
+  root.querySelectorAll('blockquote').forEach((quote) => {
+    const firstPara = quote.querySelector('p');
+    if (!firstPara || !CONTRIBUTE_TAG_RE.test(firstPara.textContent)) {
+      return;
+    }
+
+    const firstText = firstPara.firstChild;
+    if (firstText && firstText.nodeType === Node.TEXT_NODE) {
+      firstText.textContent = firstText.textContent.replace(CONTRIBUTE_TAG_RE, '');
+    }
+    if (!firstPara.textContent.trim() && !firstPara.querySelector('*')) {
+      firstPara.remove();
+    }
+
+    const aside = document.createElement('aside');
+    aside.className = 'contribute-callout';
+
+    const body = document.createElement('div');
+    body.className = 'contribute-body';
+    while (quote.firstChild) {
+      body.appendChild(quote.firstChild);
+    }
+    aside.appendChild(body);
+
+    const subject = encodeURIComponent(`Cabin Three FAQ addition: ${topicTitle}`);
+    const actions = document.createElement('p');
+    actions.className = 'contribute-actions';
+    actions.innerHTML =
+      'Want to add something? ' +
+      `<a href="mailto:${ISSUE_CONTACT_EMAIL}?subject=${subject}">Email Jacob</a>` +
+      ' or ' +
+      `<a href="${REPO_URL}" target="_blank" rel="noopener">open a pull request</a>.`;
+    aside.appendChild(actions);
+
+    quote.replaceWith(aside);
+  });
+}
+
 const params = new URLSearchParams(window.location.search);
 const requestedSlug = params.get('topic') || 'technology';
 const slug = TOPIC_ALIASES[requestedSlug] || requestedSlug;
@@ -174,6 +219,7 @@ if (!topic) {
         contentEl.innerHTML = window.marked.parse(markdown);
         upgradeVideoEmbeds(contentEl);
         upgradeIssueCallouts(contentEl, topic.title);
+        upgradeContributeCallouts(contentEl, topic.title);
       } else {
         contentEl.textContent = markdown;
       }
