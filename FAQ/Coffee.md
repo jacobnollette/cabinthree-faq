@@ -11,7 +11,11 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 ## Steaming milk
 
 - Start with cold milk, and fill the pitcher half full - that's exactly two lattes
-- Barista-style milk froths best, but the unsweetened or vanilla almond milk from Aldi is very good, and coconut and oat milk work great too
+- A quick word on milk:
+  - The barista-style milk froths the best - use it if it's there
+  - Cow's milk (and fattier milk generally) can handle more heat
+  - The cheaper milk from Aldi tastes great, but it doesn't froth well and will look more watery. You can make foam with it, it just won't be creamy
+  - If you're not using the barista milk, just use the steam wand to heat the milk to temperature and skip chasing the foam
 - Give the steam wand a quick blast first to clear the condensation out
 - Rest the wand on the pitcher's beveled edge and just "kiss" the milk surface - it will pull the milk into a vortex and fold the foam back in. Don't move the jug, let the milk move
 - Feel the side of the pitcher with a finger - when it's about as hot as you can comfortably touch, it's done
