@@ -371,6 +371,35 @@ h1 {
   font-weight: 700;
 }
 
+/* Floating "back to all topics" button on topic pages */
+.back-fab {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right, 0px));
+  bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 999px;
+  background: linear-gradient(130deg, var(--accent), #2d9e9a);
+  color: #fff;
+  box-shadow: var(--shadow);
+  transition: transform 150ms ease, filter 150ms ease;
+}
+
+.back-fab:hover,
+.back-fab:focus-visible {
+  transform: translateY(-2px);
+  filter: saturate(1.1);
+}
+
+.back-fab svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(10px);
