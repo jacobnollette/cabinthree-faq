@@ -104,6 +104,16 @@ h1 {
   filter: saturate(1.1);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.hero-cta-fire {
+  background: linear-gradient(130deg, var(--accent-2), #e8933f);
+}
+
 .rules,
 .topics {
   margin-top: 1rem;
@@ -311,6 +321,11 @@ h1 {
 @media (max-width: 680px) {
   .hero {
     padding-top: 3rem;
+  }
+
+  .hero-actions .hero-cta {
+    flex: 1 1 100%;
+    text-align: center;
   }
 
   .site-footer {
