@@ -60,6 +60,15 @@ main,
   padding: 4.2rem 0 2rem;
 }
 
+.hero-logo {
+  display: block;
+  width: 76px;
+  height: 76px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 0.85rem;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;

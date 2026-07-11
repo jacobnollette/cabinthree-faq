@@ -1,6 +1,7 @@
 const TOPIC_MAP = {
   'around-town': { title: 'Around Town', file: 'FAQ/Around Town.md' },
   changelog: { title: 'Changelog', file: 'CHANGELOG.md' },
+  install: { title: 'Make This an App', file: 'install.md' },
   bedrooms: { title: 'Bedrooms, Sheets & Towels', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
