@@ -12,7 +12,7 @@ const TOPIC_MAP = {
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
   kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
-  'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
+  'septic-drains': { title: 'Septic & Drains', file: 'FAQ/Septic and drains.md' },
   technology: { title: 'Technology', file: 'FAQ/Technology.md' },
   vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
   'walkie-talkies': { title: 'Walkie Talkies', file: 'FAQ/Walkie Talkies.md' },
