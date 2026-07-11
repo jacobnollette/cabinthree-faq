@@ -2,7 +2,7 @@
 - Solo stove if awesome! take care of it!
 - Dont let the sparks or intense heat kill the trees above the solo stove, or fires down by the beach
 - Dont let smoke disrupt neighbors
-- Dont have fires when there are fire bans for either fire conditions or air quality
+- Dont have fires when there are fire bans for either fire conditions or air quality - check current restrictions at the [MN DNR fire danger and burning restrictions page](https://www.dnr.state.mn.us/forestry/fire/firerating_restrictions.html)
 - You must only burn DNR approved wood, or stuff you find on our property - please collect sticks!
 - It is okay to burn paper from home
 - No cans, plastic, or food in the solo
