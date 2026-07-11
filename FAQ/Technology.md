@@ -3,7 +3,7 @@
 - Network: 🏖️beachhaus - password: "happy place"
 - Turn on Wi-Fi calling. The cabin has a metal roof, so cell calls usually struggle indoors. One catch: if you walk away from the cabin during a Wi-Fi call, the call can drop
 - The internet is fiber and should be very fast. If you need a wired connection, just ask - Jacob can turn on a port for you
-- Please don't stream from illegal sources on our network - no rooted/jailbroken streaming devices, torrenting, or anything similar. That activity gets flagged against our IP address, so we have to be firm on this one
+- Please don't stream from illegal sources on our network - no rooted/jailbroken streaming devices, torrenting, or anything similar. The cabin has a static IP address that is literally attached to Jacob - it never changes, so there's zero anonymity here, and anything flagged lands directly on us. We have to be firm on this one
 
 ## Printing and scanning
 
