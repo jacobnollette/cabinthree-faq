@@ -1,0 +1,4 @@
+- New for 2026! There are enough walkie talkies for the whole crew, so parents can keep a set too
+- They recharge over USB-C - the chargers are in the kitchen
+- Please keep them off the lake and off the beach entirely - everywhere else is fair game
+- They're durable and safe, but be mindful with them. They're not super expensive - we'd just like to avoid replacing them often

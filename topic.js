@@ -14,6 +14,7 @@ const TOPIC_MAP = {
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
   technology: { title: 'Technology', file: 'FAQ/Technology.md' },
   vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
+  'walkie-talkies': { title: 'Walkie Talkies', file: 'FAQ/Walkie Talkies.md' },
   weather: { title: 'Weather', file: 'FAQ/Weather.md' }
 };
 
