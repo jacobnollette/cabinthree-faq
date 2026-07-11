@@ -1,6 +1,7 @@
 # CLAUDE.md
 
-Static FAQ site for Cabin Three guests, hosted on GitHub Pages. No build step:
+Static FAQ site for Cabin Three guests, hosted on GitHub Pages at
+**https://faq.cabinthree.info**. No build step:
 `index.html` renders topic cards, `topic.html` + `topic.js` fetch a Markdown
 file from `FAQ/` and render it in the browser with marked.js. Deploys happen
 only on pushes to `main` (`.github/workflows/pages.yml`).
