@@ -9,4 +9,3 @@
 - There are three boogie boards in the laundry room (main area)
 - There are floaties in the back storage area (by cabin three stuff)
 - Noodles on deck
-- Lower and remove dock umbrellas at night, as wind can take them. Keep them down in bad weather.

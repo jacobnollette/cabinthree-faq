@@ -1,6 +1,0 @@
-- If you are not actively using the umbrella, take it down and place it in the deck box (day or night). Sudden wind can catch the umbrella and break the picture window
-- Umbrella and cushions should be dry before they go back in the deck box - if they're damp, leave them out (the umbrella can lie on the deck)
-- Same goes for the umbrella on the dock: if you put it up, take it down every night - please don't assume someone else will
-- The Weber grill is yours to use. There's usually a spare propane tank around - if you empty one, please buy a replacement and send us the bill
-- Try to keep the cover on the grill when it rains. No one's perfect - just do your best
-- Please don't use the smoker on the deck - it's messy

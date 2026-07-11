@@ -3,12 +3,12 @@ const TOPIC_MAP = {
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
   coffee: { title: 'Coffee', file: 'FAQ/Coffee.md' },
-  deck: { title: 'Deck & Grill', file: 'FAQ/Deck.md' },
+  deck: { title: 'Deck & Umbrellas', file: 'FAQ/Deck and Umbrellas.md' },
   'dock-boating-beach': { title: 'Dock, Boating, and Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
-  kitchen: { title: 'Kitchen', file: 'FAQ/Kitchen.md' },
+  kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
   restaurants: { title: 'Around Town', file: 'FAQ/Around Town.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
@@ -26,7 +26,7 @@ const TOPIC_ALIASES = {
   'internet-wifi': 'technology',
   'printer-scanner': 'technology',
   work: 'technology',
-  grills: 'deck',
+  grills: 'kitchen',
   'tv-video-audio': 'technology',
   'audio-video': 'technology'
 };
