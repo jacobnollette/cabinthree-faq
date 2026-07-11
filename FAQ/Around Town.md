@@ -12,6 +12,7 @@
 - [Necce's Ristorante](https://www.google.com/maps/search/?api=1&query=Necces+Ristorante+311+Main+Ave+S+Park+Rapids+MN+56470) - 311 Main Ave S, Park Rapids - exceptional Italian, pretty fancy - a nice night out
 - [Compañeros](https://www.google.com/maps/search/?api=1&query=Companeros+Mexican+Restaurant+20427+MN-226+Dorset+MN+56470) - 20427 MN-226, Dorset - Mexican, a Dorset classic
 - [La Pasta Italian Eatery](https://www.google.com/maps/search/?api=1&query=La+Pasta+Italian+Eatery+Dorset+General+Store+20470+State+226+Dorset+MN) - 20470 State 226, Dorset (inside the Dorset General Store) - apparently a very good breakfast
+- [Shorty's](https://www.google.com/maps/search/?api=1&query=Shortys+Dorset+MN+56470) - Dorset - a new spot in the old 218 space, with a similar menu to the bar that used to be there
 
 ## Donuts and treats
 
