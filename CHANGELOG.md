@@ -10,6 +10,9 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.12.2 — 2026-07-11
+- Removed the "Raw Markdown Index" link from the homepage.
+
 ## 1.12.1 — 2026-07-11
 - Noted where the towels live: beach and extra towels in both bedrooms (mostly the secondary bedroom), and extra hand towels in the bathroom.
 
