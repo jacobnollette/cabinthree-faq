@@ -9,9 +9,10 @@
 - [Royal Bar](https://www.google.com/maps/search/?api=1&query=Royal+Bar+120+Main+Ave+S+Park+Rapids+MN+56470) - 120 Main Ave S, downtown Park Rapids - known for their burgers
 - [West Forty Restaurant](https://www.google.com/maps/search/?api=1&query=West+Forty+Restaurant+906+1st+St+W+Park+Rapids+MN+56470) - 906 1st St W, on the west edge of Park Rapids - homestyle cooking
 
-## Donuts
+## Donuts and treats
 
 - [Flour Chicks Bakery](https://www.google.com/maps/search/?api=1&query=Flour+Chicks+Bakery+206+Bunyan+Trails+Rd+Nevis+MN+56467) - 206 Bunyan Trails Rd, Nevis - really good from-scratch donuts. Closed Sunday and Monday
+- [Molly Poppin's Gourmet Snacks](https://www.google.com/maps/search/?api=1&query=Molly+Poppins+Gourmet+Snacks+220+Main+Ave+S+Park+Rapids+MN+56470) - 220 Main Ave S, Park Rapids, right next to The Good Life - really good popcorn, highly recommended
 
 ## Groceries
 
