@@ -3,6 +3,7 @@ const TOPIC_MAP = {
   bedrooms: { title: 'Bedrooms', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
+  coffee: { title: 'Coffee', file: 'FAQ/Coffee.md' },
   deck: { title: 'Deck & Grill', file: 'FAQ/Deck.md' },
   'dock-boating-beach': { title: 'Dock, Boating, and Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },
@@ -31,19 +32,23 @@ const TOPIC_ALIASES = {
 };
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
+const VIDEO_URL_RE = /^https?:\/\/(?:(?:www\.|m\.)?youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/;
 
-// Markdown image syntax pointing at a YouTube Short becomes an inline player:
-//   ![Title](https://www.youtube.com/shorts/VIDEO_ID)
+// Markdown image syntax pointing at a YouTube URL becomes an inline player:
+//   ![Title](https://www.youtube.com/shorts/VIDEO_ID)  -> vertical Shorts player
+//   ![Title](https://youtu.be/VIDEO_ID)                -> 16:9 video player
 // Regular [text](url) links are left untouched. See CLAUDE.md.
-function upgradeShortsEmbeds(root) {
+function upgradeVideoEmbeds(root) {
   root.querySelectorAll('img').forEach((img) => {
     const src = img.getAttribute('src') || '';
     const label = img.getAttribute('alt') || '';
-    const match = src.match(SHORTS_URL_RE);
+    const shorts = src.match(SHORTS_URL_RE);
+    const video = shorts ? null : src.match(VIDEO_URL_RE);
+    const match = shorts || video;
 
     if (!match) {
       // Any other YouTube URL in image syntax degrades to a plain link
-      // instead of a broken <img>. The site only embeds Shorts.
+      // instead of a broken <img>.
       if (/youtube\.com|youtu\.be/.test(src)) {
         const link = document.createElement('a');
         link.href = src;
@@ -56,11 +61,11 @@ function upgradeShortsEmbeds(root) {
     }
 
     const figure = document.createElement('figure');
-    figure.className = 'shorts-player';
+    figure.className = shorts ? 'shorts-player' : 'video-player';
 
     const iframe = document.createElement('iframe');
     iframe.src = `https://www.youtube-nocookie.com/embed/${match[1]}?playsinline=1`;
-    iframe.title = label || 'YouTube Short';
+    iframe.title = label || (shorts ? 'YouTube Short' : 'YouTube video');
     iframe.loading = 'lazy';
     iframe.allow = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
     iframe.allowFullscreen = true;
@@ -167,7 +172,7 @@ if (!topic) {
       }
       if (window.marked) {
         contentEl.innerHTML = window.marked.parse(markdown);
-        upgradeShortsEmbeds(contentEl);
+        upgradeVideoEmbeds(contentEl);
         upgradeIssueCallouts(contentEl, topic.title);
       } else {
         contentEl.textContent = markdown;
