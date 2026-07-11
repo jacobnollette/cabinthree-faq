@@ -4,6 +4,7 @@ Quick links for guests.
 
 ## Topics
 
+- [Around Town](FAQ/Around%20Town.md)
 - [Audio Video](FAQ/Audio%20Video.md)
 - [Bedrooms](FAQ/Bedrooms.md)
 - [Binoculars](FAQ/Binoculars.md)

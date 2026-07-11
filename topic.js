@@ -11,6 +11,7 @@ const TOPIC_MAP = {
   'home-automation': { title: 'Home Automation', file: 'FAQ/Home Automation.md' },
   kitchen: { title: 'Kitchen', file: 'FAQ/Kitchen.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
+  restaurants: { title: 'Around Town', file: 'FAQ/Around Town.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
   technology: { title: 'Technology', file: 'FAQ/Technology.md' },
   vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
