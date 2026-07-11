@@ -5,7 +5,6 @@ Quick links for guests.
 ## Topics
 
 - [Around Town](FAQ/Around%20Town.md)
-- [Audio Video](FAQ/Audio%20Video.md)
 - [Bedrooms](FAQ/Bedrooms.md)
 - [Binoculars](FAQ/Binoculars.md)
 - [Climate](FAQ/Climate.md)
@@ -15,7 +14,6 @@ Quick links for guests.
 - [EV](FAQ/EV.md)
 - [Fire](FAQ/Fire.md)
 - [Garbage](FAQ/Garbage.md)
-- [Home Automation](FAQ/Home%20Automation.md)
 - [Kitchen](FAQ/Kitchen.md)
 - [Laundry](FAQ/Laundry.md)
 - [Septic and drains](FAQ/Septic%20and%20drains.md)

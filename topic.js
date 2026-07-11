@@ -1,5 +1,4 @@
 const TOPIC_MAP = {
-  'audio-video': { title: 'Audio Video', file: 'FAQ/Audio Video.md' },
   bedrooms: { title: 'Bedrooms', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
@@ -9,7 +8,6 @@ const TOPIC_MAP = {
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
-  'home-automation': { title: 'Home Automation', file: 'FAQ/Home Automation.md' },
   kitchen: { title: 'Kitchen', file: 'FAQ/Kitchen.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
   restaurants: { title: 'Around Town', file: 'FAQ/Around Town.md' },
@@ -22,13 +20,15 @@ const TOPIC_MAP = {
 
 // Old topic slugs from before the 2026 consolidation keep working
 const TOPIC_ALIASES = {
-  'home-assistant': 'home-automation',
-  lighting: 'home-automation',
+  'home-assistant': 'technology',
+  lighting: 'technology',
+  'home-automation': 'technology',
   'internet-wifi': 'technology',
   'printer-scanner': 'technology',
   work: 'technology',
   grills: 'deck',
-  'tv-video-audio': 'audio-video'
+  'tv-video-audio': 'technology',
+  'audio-video': 'technology'
 };
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;

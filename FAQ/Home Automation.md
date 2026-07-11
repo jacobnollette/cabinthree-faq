@@ -1,4 +1,0 @@
-- The cabin lights follow the sun - they're on a circadian rhythm that warms the light up in the evening - but every light can also be operated completely manually. The switches always work
-- Home Assistant is the app we use for smart control of the lights, climate, and more. Using it is completely optional
-- Our dashboard also tracks fun things, like aurora (northern lights) alerts and local weather
-- Curious? Ask us for Home Assistant access and we'll set you up - zero pressure
