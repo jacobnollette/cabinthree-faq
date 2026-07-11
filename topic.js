@@ -1,24 +1,31 @@
 const TOPIC_MAP = {
-  'home-assistant': { title: '@ Home Assistant', file: 'FAQ/@ Home Assistant.md' },
+  'audio-video': { title: 'Audio Video', file: 'FAQ/Audio Video.md' },
   bedrooms: { title: 'Bedrooms', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
-  deck: { title: 'Deck', file: 'FAQ/Deck.md' },
+  deck: { title: 'Deck & Grill', file: 'FAQ/Deck.md' },
   'dock-boating-beach': { title: 'Dock, Boating, and Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
-  grills: { title: 'Grills', file: 'FAQ/Grills.md' },
-  'internet-wifi': { title: 'Internet - WIFI', file: 'FAQ/Internet - WIFI.md' },
+  'home-automation': { title: 'Home Automation', file: 'FAQ/Home Automation.md' },
   kitchen: { title: 'Kitchen', file: 'FAQ/Kitchen.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
-  lighting: { title: 'Lighting', file: 'FAQ/Lighting.md' },
-  'printer-scanner': { title: 'Printer - Scanner', file: 'FAQ/Printer - Scanner.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
-  'tv-video-audio': { title: 'TV - Video - Audio', file: 'FAQ/TV - Video - Audio.md' },
+  technology: { title: 'Technology', file: 'FAQ/Technology.md' },
   vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
-  weather: { title: 'Weather', file: 'FAQ/Weather.md' },
-  work: { title: 'Work', file: 'FAQ/Work.md' }
+  weather: { title: 'Weather', file: 'FAQ/Weather.md' }
+};
+
+// Old topic slugs from before the 2026 consolidation keep working
+const TOPIC_ALIASES = {
+  'home-assistant': 'home-automation',
+  lighting: 'home-automation',
+  'internet-wifi': 'technology',
+  'printer-scanner': 'technology',
+  work: 'technology',
+  grills: 'deck',
+  'tv-video-audio': 'audio-video'
 };
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
@@ -122,7 +129,8 @@ function upgradeIssueCallouts(root, topicTitle) {
 }
 
 const params = new URLSearchParams(window.location.search);
-const slug = params.get('topic') || 'internet-wifi';
+const requestedSlug = params.get('topic') || 'technology';
+const slug = TOPIC_ALIASES[requestedSlug] || requestedSlug;
 const topic = TOPIC_MAP[slug];
 const titleEl = document.querySelector('#topic-title');
 const contentEl = document.querySelector('#topic-content');

@@ -1,4 +1,3 @@
-- If you get cold - both Dyson air filters / heaters are pretty safe to use over night, and at the same time from both bedrooms - should not trip a breaker, unless someone is charging outside from the outlet - one per room.
-- The Dyson’s also have a fantastic hepa and carbon air filter, so they help with everything from forest fire smoke, cooking smells, to volatile organic compounds (solvents)
-- the beds are different sizes, so mindful or which sheets are for the queen
-- uno cards and games in side table next to the queen bed
+- Please don't run the Dyson and the hair dryer at the same time - together they can trip a breaker
+- The Murphy beds are heavy and can be dangerous - open them slowly, and mind the straps that unlock the bed
+- When your stay is over, strip your sheets and put them in the blue bags
