@@ -19,3 +19,10 @@
 - [ALDI](https://www.google.com/maps/search/?api=1&query=ALDI+1310+1st+St+E+Park+Rapids+MN+56470) - 1310 1st St E, Park Rapids - new in town
 - [Hugo's Family Marketplace](https://www.google.com/maps/search/?api=1&query=Hugos+Family+Marketplace+101+E+4th+St+Park+Rapids+MN+56470) - 101 E 4th St, Park Rapids - full-service grocery
 - [Walmart Supercenter](https://www.google.com/maps/search/?api=1&query=Walmart+Supercenter+1303+Charles+St+Park+Rapids+MN+56470) - 1303 Charles St, Park Rapids - groceries and everything else
+- [Target](https://www.google.com/maps/search/?api=1&query=Target+2100+Paul+Bunyan+Dr+NW+Bemidji+MN+56601) - 2100 Paul Bunyan Dr NW, Bemidji - a bit of a drive, good to pair with a Bemidji day
+
+## Day trips and rainy days
+
+- [Itasca State Park](https://www.google.com/maps/search/?api=1&query=Itasca+State+Park+36750+Main+Park+Dr+Park+Rapids+MN+56470) - 36750 Main Park Dr, about 21 miles north of Park Rapids - very fun; walk across the headwaters of the Mississippi
+- [Birdie's Mini Golf](https://www.google.com/maps/search/?api=1&query=Birdies+Mini+Golf+16670+MN-34+Park+Rapids+MN+56470) - 16670 MN-34, on the way into Park Rapids
+- [CEC Bemidji Theatre](https://www.google.com/maps/search/?api=1&query=CEC+Bemidji+Theatre+5284+Theatre+Lane+Bemidji+MN+56601) - 5284 Theatre Lane, Bemidji - a very nice movie theater, perfect for a rainy day
