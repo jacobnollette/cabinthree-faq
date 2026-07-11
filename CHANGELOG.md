@@ -10,6 +10,9 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.14.1 — 2026-07-11
+- Added Beagle and Wolf Books & Bindery (the former Sister Wolf Books) to Around Town.
+
 ## 1.14.0 — 2026-07-11
 - Reorganized the Coffee & Tea page into clear Tea and Coffee sections (Tea first), with the espresso steps as sub-sections under Coffee.
 - Added the porch drip coffee maker and where its filters live, and two important notes: use filtered water in every coffee maker, and never run the espresso machine dry (it can burn out the motor).
