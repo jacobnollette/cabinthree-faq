@@ -9,6 +9,16 @@ only on pushes to `main` (`.github/workflows/pages.yml`).
 See `AGENTS.md` for general content rules (no Notion metadata, preserve FAQ
 wording, etc.).
 
+## Changelog and versioning
+
+`CHANGELOG.md` (repo root) is the version history, newest first, following
+semantic versioning (MAJOR.MINOR.PATCH). It's rendered as a page via the
+`changelog` entry in `TOPIC_MAP` and linked from the homepage footer — it is
+deliberately not a card on the Browse Topics grid. When you ship a change,
+add an entry: PATCH for copy edits/corrections, MINOR for a new topic or
+feature, MAJOR only if a guest-facing URL breaks with no redirect fallback
+(slug renames add a `TOPIC_ALIASES` redirect, so they stay MINOR).
+
 ## Video tutorials: YouTube embeds
 
 To add a video tutorial to a topic page, use Markdown image syntax pointing at
