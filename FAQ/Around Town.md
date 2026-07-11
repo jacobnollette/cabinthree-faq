@@ -9,6 +9,7 @@
 - [Royal Bar](https://www.google.com/maps/search/?api=1&query=Royal+Bar+120+Main+Ave+S+Park+Rapids+MN+56470) - 120 Main Ave S, downtown Park Rapids - known for their burgers
 - [West Forty Restaurant](https://www.google.com/maps/search/?api=1&query=West+Forty+Restaurant+906+1st+St+W+Park+Rapids+MN+56470) - 906 1st St W, on the west edge of Park Rapids - homestyle cooking
 - [Vallartas Mexican Grill](https://www.google.com/maps/search/?api=1&query=Vallartas+Mexican+Grill+100+2nd+St+E+Park+Rapids+MN+56470) - 100 2nd St E, Park Rapids - really good Mexican
+- [Necce's Ristorante](https://www.google.com/maps/search/?api=1&query=Necces+Ristorante+311+Main+Ave+S+Park+Rapids+MN+56470) - 311 Main Ave S, Park Rapids - exceptional Italian, pretty fancy - a nice night out
 - [Dorset House](https://www.google.com/maps/search/?api=1&query=Dorset+House+Family+Restaurant+Dorset+MN) - on the main street in Dorset - very good pizza, plus an old-fashioned soda fountain with crazy sundaes
 - [Compañeros](https://www.google.com/maps/search/?api=1&query=Companeros+Mexican+Restaurant+20427+MN-226+Dorset+MN+56470) - 20427 MN-226, Dorset - Mexican, a Dorset classic
 - [La Pasta Italian Eatery](https://www.google.com/maps/search/?api=1&query=La+Pasta+Italian+Eatery+Dorset+General+Store+20470+State+226+Dorset+MN) - 20470 State 226, Dorset (inside the Dorset General Store) - apparently a very good breakfast
