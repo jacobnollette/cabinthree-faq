@@ -26,6 +26,11 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 - Espresso shot into the latte cup, then lightly tap the milk pitcher on the counter to pop the big bubbles
 - Pour slowly and methodically into the middle of the coffee - you want the milk and espresso to meet, not splash
 
+## Americanos
+
+- The hot water spigot is on the left side of the machine
+- Put some hot water in a cup, then pull the espresso on top - that's an americano
+
 ## Cleaning up
 
 - Lattes are a messy habit - please wipe down the counter and the machine with a damp rag
