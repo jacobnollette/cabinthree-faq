@@ -4,7 +4,7 @@ const TOPIC_MAP = {
   bedrooms: { title: 'Bedrooms, Sheets & Towels', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
-  coffee: { title: 'Coffee', file: 'FAQ/Coffee.md' },
+  coffee: { title: 'Coffee & Tea', file: 'FAQ/Coffee.md' },
   deck: { title: 'Deck & Umbrellas', file: 'FAQ/Deck and Umbrellas.md' },
   'dock-boating-beach': { title: 'Dock, Boating & Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },

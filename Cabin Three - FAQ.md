@@ -6,7 +6,7 @@
 - [Bedrooms, Sheets & Towels](FAQ/Bedrooms.md)
 - [Binoculars](FAQ/Binoculars.md)
 - [Climate](FAQ/Climate.md)
-- [Coffee](FAQ/Coffee.md)
+- [Coffee & Tea](FAQ/Coffee.md)
 - [Deck & Umbrellas](FAQ/Deck%20and%20Umbrellas.md)
 - [Dock, Boating & Beach Toys](FAQ/Dock,%20Boating,%20and%20Beach%20toys.md)
 - [EV](FAQ/EV.md)

@@ -31,6 +31,13 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 - The hot water spigot is on the left side of the machine
 - Put some hot water in a cup, then pull the espresso on top - that's an americano
 
+## Tea
+
+- There's a large glass teapot you're welcome to use
+- We keep dried ginger by the grinder, along with two teaspoon scoops. For ginger tea, put about 2 scoops (roughly 4 teaspoons) of ginger in the teapot, fill with hot, near-boiling water - you won't burn it - and let it steep about 5 to 7 minutes. Squeeze in some lemon and it's a very good drink
+- There's additional tea in the pantry
+- The teapot is dishwasher-safe, but the infuser/strainer is hand-wash only
+
 ## Cleaning up
 
 - Lattes are a messy habit - please wipe down the counter and the machine with a damp rag
