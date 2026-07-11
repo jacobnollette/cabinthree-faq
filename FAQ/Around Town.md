@@ -39,6 +39,7 @@
 - [Birdie's Mini Golf](https://www.google.com/maps/search/?api=1&query=Birdies+Mini+Golf+16670+MN-34+Park+Rapids+MN+56470) - 16670 MN-34, on the way into Park Rapids
 - [Park Theater](https://www.google.com/maps/search/?api=1&query=Park+Theater+107+Main+Ave+S+Park+Rapids+MN+56470) - 107 Main Ave S, Park Rapids - the local movie theater downtown, great for a rainy day
 - [CEC Bemidji Theatre](https://www.google.com/maps/search/?api=1&query=CEC+Bemidji+Theatre+5284+Theatre+Lane+Bemidji+MN+56601) - 5284 Theatre Lane, Bemidji - a bigger movie theater about an hour away, worth the drive if you want more showtimes
+- [Beagle and Wolf Books & Bindery](https://www.google.com/maps/search/?api=1&query=Beagle+and+Wolf+Books+112+3rd+St+W+Park+Rapids+MN+56470) - 112 3rd St W, Park Rapids - the local bookstore (you may remember it as Sister Wolf Books). It's the first right as you come into town - great rainy-day browsing
 
 > [!CONTRIBUTE]
 > Found a great local spot we're missing? We'd love to add it to this list.
