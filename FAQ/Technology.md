@@ -24,7 +24,7 @@
 
 - One printer (AirPrint, named "Cabin HP") - print as much as you want, it does two-sided. Out of paper? Grab a non-glossy ream at Walmart. Toner low? Let us know and we'll bring more up
 - The scanner is free to use - just never run stapled pages through it. You can unplug it from the printer, or use the computer
-- There's an iMac at the cabin. Log in with the guest user (password: guest) to print, browse the internet, and so on
+- There's an iMac at the cabin. Log in with the guest user (no password needed) to print, browse the internet, and so on
 
 Video tutorial:
 
