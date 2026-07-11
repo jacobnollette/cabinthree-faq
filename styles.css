@@ -374,8 +374,8 @@ h1 {
 /* Floating "back to all topics" button on topic pages */
 .back-fab {
   position: fixed;
-  right: max(1rem, env(safe-area-inset-right, 0px));
-  bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  right: 1rem;
+  bottom: 1rem;
   z-index: 50;
   display: inline-flex;
   align-items: center;
@@ -387,6 +387,15 @@ h1 {
   color: #fff;
   box-shadow: var(--shadow);
   transition: transform 150ms ease, filter 150ms ease;
+}
+
+/* Respect notched-phone safe areas only where fully supported, so the
+   base offsets above always apply even if a browser can't parse this. */
+@supports (bottom: max(1rem, env(safe-area-inset-bottom))) {
+  .back-fab {
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(1rem, env(safe-area-inset-bottom));
+  }
 }
 
 .back-fab:hover,
