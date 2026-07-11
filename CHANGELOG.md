@@ -10,6 +10,11 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.16.0 — 2026-07-11
+- Added a cabin icon (modeled on the real cabin - brown walls, green roof, white windows, pines) as the site favicon and homepage logo.
+- Added full "add to home screen" (PWA) support, so the site installs with the cabin icon and opens full-screen like an app.
+- Added a "Make this an app" guide (linked from the homepage footer) with steps for iPhone/Safari, Android/Chrome, and desktop.
+
 ## 1.15.1 — 2026-07-11
 - Fixed the floating "back to all topics" button so it reliably stays pinned to the lower-right corner while scrolling (some browsers dropped the position offsets and let it fall to the bottom of the page).
 

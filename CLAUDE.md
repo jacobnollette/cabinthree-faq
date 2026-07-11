@@ -9,6 +9,15 @@ only on pushes to `main` (`.github/workflows/pages.yml`).
 See `AGENTS.md` for general content rules (no Notion metadata, preserve FAQ
 wording, etc.).
 
+## Icons and PWA
+
+`favicon.svg` is the source cabin icon; the PNGs (`favicon-32.png`,
+`apple-touch-icon.png`, `icon-192.png`, `icon-512.png`) are rendered from it -
+regenerate them if you change the SVG. `manifest.webmanifest` makes the site
+installable; the head `<link>`/`<meta>` tags in `index.html` and `topic.html`
+wire it up. The install guide is `install.md`, exposed via the `install` entry
+in `TOPIC_MAP` and the "Make this an app" footer link on the homepage.
+
 ## Changelog and versioning
 
 `CHANGELOG.md` (repo root) is the version history, newest first, following

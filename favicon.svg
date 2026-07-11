@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Cabin Three">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfeade"/>
+      <stop offset="1" stop-color="#a7c7b7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- pines behind the cabin -->
+  <g fill="#1c574a">
+    <rect x="90" y="300" width="12" height="70" rx="3"/>
+    <path d="M96 196 L134 268 L58 268 Z"/>
+    <path d="M96 236 L146 316 L46 316 Z"/>
+  </g>
+  <g fill="#184b40">
+    <rect x="420" y="288" width="14" height="86" rx="3"/>
+    <path d="M427 168 L474 256 L380 256 Z"/>
+    <path d="M427 214 L486 314 L368 314 Z"/>
+    <path d="M427 262 L498 360 L356 360 Z"/>
+  </g>
+
+  <!-- ground -->
+  <path d="M0 382 C120 366 200 374 256 377 C320 380 402 366 512 384 L512 512 L0 512 Z" fill="#3d7856"/>
+
+  <!-- metal flue -->
+  <rect x="300" y="150" width="8" height="60" fill="#9a9f9c"/>
+
+  <!-- green roof / rake trim (sits behind the brown gable) -->
+  <path d="M256 156 L366 266 L146 266 Z" fill="#256b54"/>
+  <rect x="150" y="258" width="212" height="14" fill="#256b54"/>
+
+  <!-- brown cabin -->
+  <path d="M256 180 L340 266 L172 266 Z" fill="#46332a"/>
+  <rect x="184" y="262" width="144" height="122" rx="4" fill="#46332a"/>
+  <!-- subtle board lines -->
+  <g fill="#3a2a22">
+    <rect x="216" y="266" width="2.5" height="118"/>
+    <rect x="255" y="266" width="2.5" height="118"/>
+    <rect x="294" y="266" width="2.5" height="118"/>
+  </g>
+
+  <!-- windows -->
+  <g>
+    <rect x="198" y="298" width="34" height="40" rx="2" fill="#eef1e8"/>
+    <rect x="213" y="298" width="4" height="40" fill="#46332a"/>
+    <rect x="198" y="316" width="34" height="4" fill="#46332a"/>
+  </g>
+  <g>
+    <rect x="280" y="298" width="34" height="40" rx="2" fill="#eef1e8"/>
+    <rect x="295" y="298" width="4" height="40" fill="#46332a"/>
+    <rect x="280" y="316" width="34" height="4" fill="#46332a"/>
+  </g>
+
+  <!-- door -->
+  <path d="M238 384 L238 336 a18 18 0 0 1 36 0 L274 384 Z" fill="#6b4a30"/>
+  <circle cx="266" cy="352" r="3" fill="#d9c8a0"/>
+</svg>
