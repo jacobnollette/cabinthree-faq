@@ -1,6 +1,21 @@
-We have a Breville Dual Boiler espresso machine and a Breville grinder - you're welcome to use them. Watch the video below for the full walkthrough; here's the short version.
+Everything for coffee and tea. Tea is quick and easy; the espresso setup has a bit more to it, and there's a video walkthrough at the bottom.
 
-## Making espresso
+## Tea
+
+- There's a large glass teapot you're welcome to use
+- The dried ginger is above the blender, to the right of the sink; the two teaspoon scoops are by the grinder. For ginger tea, put about 2 scoops (roughly 4 teaspoons) of ginger in the teapot, fill with hot, near-boiling water - you won't burn it - and let it steep about 5 to 7 minutes. Squeeze in some lemon and it's a very good drink
+- There's additional tea in the pantry
+- The teapot is dishwasher-safe, but the infuser/strainer is hand-wash only
+
+## Coffee
+
+We have a Breville Dual Boiler espresso machine and a Breville grinder in the kitchen, plus a drip coffee maker out in the porch. Two things that matter for all of them:
+
+- **Always use filtered water** - 100%, in every coffee maker
+- **Never let the espresso machine run dry** - if it's on with no water in the tank, it can burn out the motor, so keep it filled
+- The drip coffee maker's filters are near the ginger, to the right of the sink in the kitchen
+
+### Making espresso
 
 - Turn the machine on and let it warm up. It brews around 199-203°F - the group head should feel warm before you start (careful, it gets hot)
 - Any good beans work - it doesn't have to be an "espresso blend". The grinder is already dialed in for most beans
@@ -8,7 +23,7 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 - Tamp straight down with even pressure - no twisting. Hold the portafilter level, and remember even pressure beats hard pressure
 - Pull a double shot (about 25 seconds) into the two shot glasses. You want a rich, oily, creamy flow
 
-## Steaming milk
+### Steaming milk
 
 - Start with cold milk, and fill the pitcher half full - that's exactly two lattes
 - A quick word on milk:
@@ -21,24 +36,17 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder - you're 
 - Feel the side of the pitcher with a finger - when it's about as hot as you can comfortably touch, it's done
 - The wand is very hot. Push it down over the drip tray, give it a blast, and wipe it clean with a damp rag when you're done
 
-## Pouring the latte
+### Pouring the latte
 
 - Espresso shot into the latte cup, then lightly tap the milk pitcher on the counter to pop the big bubbles
 - Pour slowly and methodically into the middle of the coffee - you want the milk and espresso to meet, not splash
 
-## Americanos
+### Americanos
 
 - The hot water spigot is on the left side of the machine
 - Put some hot water in a cup, then pull the espresso on top - that's an americano
 
-## Tea
-
-- There's a large glass teapot you're welcome to use
-- The dried ginger is above the blender, to the right of the sink; the two teaspoon scoops are by the grinder. For ginger tea, put about 2 scoops (roughly 4 teaspoons) of ginger in the teapot, fill with hot, near-boiling water - you won't burn it - and let it steep about 5 to 7 minutes. Squeeze in some lemon and it's a very good drink
-- There's additional tea in the pantry
-- The teapot is dishwasher-safe, but the infuser/strainer is hand-wash only
-
-## Cleaning up
+### Cleaning up
 
 - Lattes are a messy habit - please wipe down the counter and the machine with a damp rag
 - No parts from the espresso machine go in the dishwasher - rinse by hand only
