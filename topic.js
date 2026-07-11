@@ -1,4 +1,5 @@
 const TOPIC_MAP = {
+  'around-town': { title: 'Around Town', file: 'FAQ/Around Town.md' },
   bedrooms: { title: 'Bedrooms', file: 'FAQ/Bedrooms.md' },
   binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
@@ -10,7 +11,6 @@ const TOPIC_MAP = {
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
   kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
-  restaurants: { title: 'Around Town', file: 'FAQ/Around Town.md' },
   'septic-drains': { title: 'Septic and Drains', file: 'FAQ/Septic and drains.md' },
   technology: { title: 'Technology', file: 'FAQ/Technology.md' },
   vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
@@ -28,7 +28,8 @@ const TOPIC_ALIASES = {
   work: 'technology',
   grills: 'kitchen',
   'tv-video-audio': 'technology',
-  'audio-video': 'technology'
+  'audio-video': 'technology',
+  restaurants: 'around-town'
 };
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
