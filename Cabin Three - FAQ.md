@@ -14,7 +14,7 @@
 - [Garbage](FAQ/Garbage.md)
 - [Kitchen, Cooking & Grilling](FAQ/Kitchen%20and%20Grilling.md)
 - [Laundry](FAQ/Laundry.md)
-- [Septic and drains](FAQ/Septic%20and%20drains.md)
+- [Septic & Drains](FAQ/Septic%20and%20drains.md)
 - [Technology](FAQ/Technology.md)
 - [Vacuum](FAQ/Vacuum.md)
 - [Walkie Talkies](FAQ/Walkie%20Talkies.md)
