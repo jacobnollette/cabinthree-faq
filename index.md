@@ -16,6 +16,7 @@ Quick links for guests.
 - [Home Automation](FAQ/Home%20Automation.md)
 - [Kitchen](FAQ/Kitchen.md)
 - [Laundry](FAQ/Laundry.md)
+- [Restaurants & Groceries](FAQ/Restaurants%20and%20Groceries.md)
 - [Septic and drains](FAQ/Septic%20and%20drains.md)
 - [Technology](FAQ/Technology.md)
 - [Vacuum](FAQ/Vacuum.md)
