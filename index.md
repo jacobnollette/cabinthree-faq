@@ -19,4 +19,5 @@ Quick links for guests.
 - [Septic and drains](FAQ/Septic%20and%20drains.md)
 - [Technology](FAQ/Technology.md)
 - [Vacuum](FAQ/Vacuum.md)
+- [Walkie Talkies](FAQ/Walkie%20Talkies.md)
 - [Weather](FAQ/Weather.md)
