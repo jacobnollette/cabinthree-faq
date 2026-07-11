@@ -77,3 +77,24 @@ Rules:
 - One callout per issue. When an issue is solved, delete the callout and fold
   the fix into the page's regular bullets.
 - Plain blockquotes without the `[!ISSUE]` marker are untouched.
+
+## Suggestions: `[!CONTRIBUTE]` callouts
+
+Pages that invite reader contributions (e.g. the Around Town list) use a
+blockquote that opens with `[!CONTRIBUTE]`:
+
+```markdown
+> [!CONTRIBUTE]
+> Found a great local spot we're missing? We'd love to add it to this list.
+```
+
+How it renders:
+
+- `upgradeContributeCallouts()` in `topic.js` converts the blockquote into an
+  `<aside class="contribute-callout">` — a friendly teal invitation card
+  (distinct from the orange `[!ISSUE]` warning card).
+- A footer is added automatically inviting readers to email Jacob (subject
+  prefilled with the topic name) or open a pull request. Same
+  `ISSUE_CONTACT_EMAIL` / `REPO_URL` as the issue callouts — don't hardcode
+  the email in FAQ markdown.
+- Styling lives in `styles.css` under `.contribute-callout`.

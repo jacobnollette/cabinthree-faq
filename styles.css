@@ -277,6 +277,29 @@ h1 {
   color: color-mix(in srgb, var(--ink), white 30%);
 }
 
+.contribute-callout {
+  margin: 1.4rem 0 0.4rem;
+  padding: 0.95rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--accent), white 55%);
+  border-left: 5px solid var(--accent);
+  border-radius: 0.9rem;
+  background: color-mix(in srgb, var(--accent), white 93%);
+}
+
+.contribute-callout .contribute-body > p {
+  margin: 0.2rem 0;
+}
+
+.contribute-callout .contribute-actions {
+  margin: 0.6rem 0 0;
+  font-size: 0.92rem;
+}
+
+.contribute-callout .contribute-actions a {
+  color: color-mix(in srgb, var(--accent), black 15%);
+  font-weight: 700;
+}
+
 .issue-callout {
   margin: 1.2rem 0;
   padding: 0.95rem 1.1rem;

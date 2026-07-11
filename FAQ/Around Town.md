@@ -12,13 +12,14 @@
 - [Necce's Ristorante](https://www.google.com/maps/search/?api=1&query=Necces+Ristorante+311+Main+Ave+S+Park+Rapids+MN+56470) - 311 Main Ave S, Park Rapids - exceptional Italian, pretty fancy - a nice night out
 - [Compañeros](https://www.google.com/maps/search/?api=1&query=Companeros+Mexican+Restaurant+20427+MN-226+Dorset+MN+56470) - 20427 MN-226, Dorset - Mexican, a Dorset classic
 - [La Pasta Italian Eatery](https://www.google.com/maps/search/?api=1&query=La+Pasta+Italian+Eatery+Dorset+General+Store+20470+State+226+Dorset+MN) - 20470 State 226, Dorset (inside the Dorset General Store) - apparently a very good breakfast
+- [Shorty's](https://www.google.com/maps/search/?api=1&query=Shortys+Dorset+MN+56470) - Dorset - a new spot in the old 218 space, with a similar menu to the bar that used to be there
 
 ## Donuts and treats
 
 - [Dorset House](https://www.google.com/maps/search/?api=1&query=Dorset+House+Family+Restaurant+Dorset+MN) - on the main street in Dorset - probably the largest ice cream selection in the area, with an old-fashioned soda fountain and crazy sundaes. They also have very good pizza
 - [Flour Chicks Bakery](https://www.google.com/maps/search/?api=1&query=Flour+Chicks+Bakery+206+Bunyan+Trails+Rd+Nevis+MN+56467) - 206 Bunyan Trails Rd, Nevis - really good from-scratch donuts. Closed Sunday and Monday
 - [Molly Poppin's Gourmet Snacks](https://www.google.com/maps/search/?api=1&query=Molly+Poppins+Gourmet+Snacks+220+Main+Ave+S+Park+Rapids+MN+56470) - 220 Main Ave S, Park Rapids, right next to The Good Life - really good popcorn, highly recommended
-- [Muskie Waters Co.](https://www.google.com/maps/search/?api=1&query=Muskie+Waters+Co+118+Bunyan+Trails+Rd+Nevis+MN+56467) - 118 Bunyan Trails Rd, Nevis - good coffee and ice cream
+- [Muskie Waters Co.](https://www.google.com/maps/search/?api=1&query=Muskie+Waters+Co+118+Bunyan+Trails+Rd+Nevis+MN+56467) - 118 Bunyan Trails Rd, Nevis - good coffee and ice cream, and their scones are really good
 
 ## Groceries
 
@@ -37,3 +38,6 @@
 - [Itasca State Park](https://www.google.com/maps/search/?api=1&query=Itasca+State+Park+36750+Main+Park+Dr+Park+Rapids+MN+56470) - 36750 Main Park Dr, about 21 miles north of Park Rapids - very fun; walk across the headwaters of the Mississippi
 - [Birdie's Mini Golf](https://www.google.com/maps/search/?api=1&query=Birdies+Mini+Golf+16670+MN-34+Park+Rapids+MN+56470) - 16670 MN-34, on the way into Park Rapids
 - [CEC Bemidji Theatre](https://www.google.com/maps/search/?api=1&query=CEC+Bemidji+Theatre+5284+Theatre+Lane+Bemidji+MN+56601) - 5284 Theatre Lane, Bemidji - a very nice movie theater, perfect for a rainy day
+
+> [!CONTRIBUTE]
+> Found a great local spot we're missing? We'd love to add it to this list.
