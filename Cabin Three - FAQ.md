@@ -8,7 +8,7 @@
 - [Climate](FAQ/Climate.md)
 - [Coffee](FAQ/Coffee.md)
 - [Deck & Umbrellas](FAQ/Deck%20and%20Umbrellas.md)
-- [Dock, Boating, and Beach toys](FAQ/Dock,%20Boating,%20and%20Beach%20toys.md)
+- [Dock, Boating & Beach Toys](FAQ/Dock,%20Boating,%20and%20Beach%20toys.md)
 - [EV](FAQ/EV.md)
 - [Fire](FAQ/Fire.md)
 - [Garbage](FAQ/Garbage.md)

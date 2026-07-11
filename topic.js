@@ -6,7 +6,7 @@ const TOPIC_MAP = {
   climate: { title: 'Climate', file: 'FAQ/Climate.md' },
   coffee: { title: 'Coffee', file: 'FAQ/Coffee.md' },
   deck: { title: 'Deck & Umbrellas', file: 'FAQ/Deck and Umbrellas.md' },
-  'dock-boating-beach': { title: 'Dock, Boating, and Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
+  'dock-boating-beach': { title: 'Dock, Boating & Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
