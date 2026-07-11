@@ -1,4 +1,0 @@
-- Airprint printer - name - Cabin HP
-- Free to use - replace paper if used a lot - let us know if toner is low.
-- It will print two sided
-- Scanner is free to use, if you install drivers from Epson

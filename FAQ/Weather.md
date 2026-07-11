@@ -1,4 +1,5 @@
-- We have been lucky - storms/winds typically slide over the hill
-- There is not a storm shelter on the property
-- You are on your own
-- You are in Hubbard County
+- Keep an eye on the forecast, and know when storms are approaching. Before high winds arrive, bring in loose things (umbrellas, cushions, beach toys) so they don't become flying debris
+- There is no storm shelter. The safest spots in the cabin are the bathroom with the door closed, or either of the closets
+- We've been lucky - storms typically blow in from the Fargo direction and slide over the hill. Stay mindful anyway
+- If the power goes out: the resort's septic system can't move wastewater without power, so go easy on the drains. You can flush once or twice by filling the toilet tank with lake water, but if the outage lasts more than a couple of hours, start making plans to head home
+- You are in Hubbard County (useful for weather alerts)

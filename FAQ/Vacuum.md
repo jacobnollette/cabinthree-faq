@@ -1,10 +1,7 @@
-- Wireless Dyson vacuum is in the closet in the master (main) bedroom
-- Careful when removing it - you angle it out from bottom and slide down
-- Its basically a large dust buster with attachments
-- Use max mode if you have a terrible mess, but rely on standard mode for longer battery life
-- Empty it by carefully pulling the handle on the top over the trash
-- Please empty it after a big cleaning
-- Do not use it on the grill, and we prefer its not used on messes that make it gunked up like potentially the stove - we have a shop vac in laundry house that can be used for heavy cleaning, like the smoker.
+- The wireless Dyson vacuum is in the closet in the master (main) bedroom
+- Vacuum often! Little-and-often beats one big cleanup - keep going until the floor stops crunching underfoot
+- You shouldn't need max mode - standard mode with more frequent passes works better, and the battery lasts longer
+- For gunky or heavy messes (grill, smoker, stove spills), use the shop vac in the laundry house instead
 
 Video tutorials:
 
