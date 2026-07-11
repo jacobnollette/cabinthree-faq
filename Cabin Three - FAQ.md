@@ -3,7 +3,7 @@
 ## Topics
 
 - [Around Town](FAQ/Around%20Town.md)
-- [Bedrooms](FAQ/Bedrooms.md)
+- [Bedrooms, Sheets & Towels](FAQ/Bedrooms.md)
 - [Binoculars](FAQ/Binoculars.md)
 - [Climate](FAQ/Climate.md)
 - [Coffee](FAQ/Coffee.md)
