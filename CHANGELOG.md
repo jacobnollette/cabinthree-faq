@@ -10,6 +10,10 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.17.0 — 2026-07-12
+- New Health Care topic: the Park Rapids hospital and 24/7 ER (CHI St. Joseph's), the Essentia walk-in clinic for urgent care, and the three pharmacies (Walgreens, Hugo's, Walmart) - all with map links and phone numbers.
+- The cabin's own address (22292 County Hwy 7) sits at the top of the page, ready to read to a 911 dispatcher.
+
 ## 1.16.0 — 2026-07-11
 - Added the cabin's pine-tree logo (the green tree on the tan plaque) as the site favicon and homepage logo.
 - Added full "add to home screen" (PWA) support, so the site installs with the cabin icon and opens full-screen like an app.
