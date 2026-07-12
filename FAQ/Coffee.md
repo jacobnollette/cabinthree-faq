@@ -56,4 +56,4 @@ We have a Breville Dual Boiler espresso machine and a Breville grinder in the ki
 
 Video tutorial:
 
-![how to make a latte](https://youtu.be/xoYviYRz64U)
+![how to make a latte](https://youtu.be/6Kbm96qqlSc)
