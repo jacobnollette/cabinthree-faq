@@ -1,5 +1,9 @@
 All of these are in Park Rapids, about 20 minutes from the cabin. **For a real emergency, call 911 first.**
 
+The cabin's address - you'll need it if you call 911:
+
+> **22292 County Hwy 7, Park Rapids, MN 56470** ([map](https://www.google.com/maps/search/?api=1&query=22292+County+Hwy+7+Park+Rapids+MN+56470))
+
 ## Hospital and emergency room
 
 - [CHI St. Joseph's Health](https://www.google.com/maps/search/?api=1&query=CHI+St+Josephs+Health+600+Pleasant+Ave+S+Park+Rapids+MN+56470) - 600 Pleasant Ave S, Park Rapids - the local hospital, with a 24/7 emergency room - (218) 732-3311
