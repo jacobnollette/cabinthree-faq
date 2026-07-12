@@ -11,6 +11,7 @@ const TOPIC_MAP = {
   ev: { title: 'EV', file: 'FAQ/EV.md' },
   fire: { title: 'Fire', file: 'FAQ/Fire.md' },
   garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
+  'health-care': { title: 'Health Care', file: 'FAQ/Health Care.md' },
   kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
   laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
   'septic-drains': { title: 'Septic & Drains', file: 'FAQ/Septic and drains.md' },

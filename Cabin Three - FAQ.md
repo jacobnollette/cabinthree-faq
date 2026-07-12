@@ -12,6 +12,7 @@
 - [EV](FAQ/EV.md)
 - [Fire](FAQ/Fire.md)
 - [Garbage](FAQ/Garbage.md)
+- [Health Care](FAQ/Health%20Care.md)
 - [Kitchen, Cooking & Grilling](FAQ/Kitchen%20and%20Grilling.md)
 - [Laundry](FAQ/Laundry.md)
 - [Septic & Drains](FAQ/Septic%20and%20drains.md)
