@@ -52,6 +52,14 @@ How it renders:
   caption below the player — always include one.
 - Styling lives in `styles.css` under `.shorts-player` and `.video-player`.
 
+Shorts also power **Cabin Channel 3** (`channel.html` + `channel.js`, the 📺
+hero button): it fetches `Cabin Three - FAQ.md` to find topic files, scans
+them for Shorts image-syntax embeds, and plays them as an auto-advancing feed
+via the YouTube IFrame API. Watched IDs live in localStorage
+(`cabin3-watched-shorts`) so unseen videos play first. Long-form videos are
+deliberately excluded; any new Short added to a FAQ page joins the channel
+automatically.
+
 Rules:
 
 - Prefer Shorts for quick topic tutorials; long-form videos are fine when the

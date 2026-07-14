@@ -123,6 +123,97 @@ h1 {
   background: linear-gradient(130deg, var(--accent-2), #e8933f);
 }
 
+.hero-cta-channel {
+  background: linear-gradient(130deg, #22303a, #3d5a66);
+}
+
+/* Cabin Channel 3 feed */
+.channel-main {
+  width: min(900px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.channel-stage {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: clamp(1rem, 2.5vw, 1.6rem);
+  box-shadow: 0 8px 22px rgba(31, 43, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.channel-frame {
+  position: relative;
+  width: min(360px, 100%);
+  aspect-ratio: 9 / 16;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #12201f;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.channel-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.channel-start {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(160deg, rgba(30, 111, 109, 0.92), rgba(18, 32, 31, 0.94));
+  color: #fff;
+  font: 700 1.2rem "Manrope", sans-serif;
+}
+
+.channel-caption {
+  margin: 0.8rem 0 0.2rem;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.channel-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.channel-btn {
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(130deg, var(--accent), #2d9e9a);
+  color: #fff;
+  font: 700 0.95rem "Manrope", sans-serif;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+}
+
+.channel-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.channel-counter {
+  font-size: 0.92rem;
+  color: color-mix(in srgb, var(--ink), white 25%);
+}
+
+.channel-note {
+  margin: 0.9rem 0 0;
+  font-size: 0.88rem;
+  text-align: center;
+  color: color-mix(in srgb, var(--ink), white 30%);
+  max-width: 46ch;
+}
+
 .rules,
 .topics {
   margin-top: 1rem;
