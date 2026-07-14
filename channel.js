@@ -10,6 +10,7 @@ const WATCHED_KEY = 'cabin3-watched-shorts';
 const DB_FILE = 'channel-videos.json';
 
 const startBtn = document.querySelector('#start-btn');
+const unmuteBtn = document.querySelector('#unmute-btn');
 const counterEl = document.querySelector('#channel-counter');
 const captionEl = document.querySelector('#channel-caption');
 const frameEl = document.querySelector('#channel-frame');
@@ -71,23 +72,31 @@ function updateHud() {
   captionEl.textContent = queue[pos] ? queue[pos].title : '';
 }
 
-async function play(i) {
-  if (!queue.length) {
+// The player is created up front with the first video CUED (not playing),
+// so the iframe is fully loaded before the user taps play. That way the tap
+// itself triggers playVideo() while the browser's user-activation window is
+// open, which is what makes autoplay-with-sound stick.
+function createPlayer(videoId) {
+  player = new YT.Player('player', {
+    videoId,
+    host: 'https://www.youtube-nocookie.com',
+    playerVars: { playsinline: 1, rel: 0 },
+    events: {
+      onReady: () => {
+        startBtn.disabled = false;
+        startBtn.textContent = '▶  Play the channel';
+      },
+      onStateChange: onPlayerState,
+    },
+  });
+}
+
+function play(i) {
+  if (!queue.length || !player) {
     return;
   }
   pos = ((i % queue.length) + queue.length) % queue.length;
-  const video = queue[pos];
-  await apiReady;
-  if (!player) {
-    player = new YT.Player('player', {
-      videoId: video.id,
-      host: 'https://www.youtube-nocookie.com',
-      playerVars: { autoplay: 1, playsinline: 1, rel: 0 },
-      events: { onStateChange: onPlayerState },
-    });
-  } else {
-    player.loadVideoById(video.id);
-  }
+  player.loadVideoById(queue[pos].id);
   updateHud();
 }
 
@@ -171,8 +180,31 @@ startBtn.addEventListener('click', () => {
   started = true;
   startBtn.hidden = true;
   frameEl.classList.add('is-playing');
-  play(0);
+  // The first video is already cued in the loaded iframe - playing it
+  // synchronously inside this tap keeps the browser's autoplay permission,
+  // and every loadVideoById() after that continues the playback session.
+  player.playVideo();
+  updateHud();
+  // Fallback for the strictest mobile policies: if sound-on playback was
+  // blocked anyway, start muted (always allowed) and offer a tap-for-sound
+  // chip - tapping it is a fresh gesture, so unmuting is permitted.
+  setTimeout(() => {
+    if (player.getPlayerState() !== YT.PlayerState.PLAYING) {
+      player.mute();
+      player.playVideo();
+      if (unmuteBtn) {
+        unmuteBtn.hidden = false;
+      }
+    }
+  }, 1200);
 });
+
+if (unmuteBtn) {
+  unmuteBtn.addEventListener('click', () => {
+    player.unMute();
+    unmuteBtn.hidden = true;
+  });
+}
 
 (async () => {
   // load the YouTube IFrame API in parallel with fetching the channel list
@@ -183,10 +215,14 @@ startBtn.addEventListener('click', () => {
   try {
     const db = await fetch(DB_FILE).then((r) => r.json());
     queue = orderQueue(db.videos || []);
+    updateHud();
     if (queue.length) {
       startBtn.hidden = false;
+      startBtn.disabled = true;
+      startBtn.textContent = 'Warming up the channel…';
+      await apiReady;
+      createPlayer(queue[0].id); // onReady enables the button
     }
-    updateHud();
   } catch {
     counterEl.textContent = 'Unable to load the channel right now.';
   }

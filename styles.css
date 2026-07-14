@@ -180,6 +180,21 @@ h1 {
   font: 700 1.2rem "Manrope", sans-serif;
 }
 
+.channel-unmute {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  border: 0;
+  cursor: pointer;
+  background: rgba(18, 32, 31, 0.85);
+  color: #fff;
+  font: 700 0.95rem "Manrope", sans-serif;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+}
+
 .channel-caption {
   margin: 0.8rem 0 0.2rem;
   font-size: 0.95rem;
