@@ -37,17 +37,15 @@
       <section class="channel-stage reveal">
         <div class="channel-frame" id="channel-frame">
           <div id="player"></div>
+          <div id="channel-touch" class="channel-touch" aria-hidden="true"></div>
           <button id="start-btn" class="channel-start" hidden>▶&nbsp; Play the channel</button>
         </div>
         <p class="channel-caption" id="channel-caption"></p>
-        <div class="channel-controls">
-          <button id="prev-btn" class="channel-btn" disabled>‹ Back</button>
-          <span class="channel-counter" id="channel-counter">Loading the channel…</span>
-          <button id="next-btn" class="channel-btn" disabled>Next ›</button>
-        </div>
+        <p class="channel-counter" id="channel-counter">Loading the channel…</p>
         <p class="channel-note">
-          Videos play in order, newest-to-you first. This device remembers what you've watched, so
-          next time the channel picks up with what you haven't seen.
+          <strong>Swipe up for the next video</strong> (down to go back), tap to pause. Videos you
+          haven't seen play first - this device remembers. Once you've watched everything, the
+          channel resets and loops from the top.
         </p>
       </section>
     </main>

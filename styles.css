@@ -161,6 +161,13 @@ h1 {
   border: 0;
 }
 
+.channel-touch {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+  cursor: grab;
+}
+
 .channel-start {
   position: absolute;
   inset: 0;
@@ -179,31 +186,11 @@ h1 {
   text-align: center;
 }
 
-.channel-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-.channel-btn {
-  border: 0;
-  cursor: pointer;
-  background: linear-gradient(130deg, var(--accent), #2d9e9a);
-  color: #fff;
-  font: 700 0.95rem "Manrope", sans-serif;
-  padding: 0.55rem 1rem;
-  border-radius: 999px;
-}
-
-.channel-btn:disabled {
-  opacity: 0.45;
-  cursor: default;
-}
-
 .channel-counter {
+  margin: 0.35rem 0 0;
   font-size: 0.92rem;
   color: color-mix(in srgb, var(--ink), white 25%);
+  text-align: center;
 }
 
 .channel-note {
