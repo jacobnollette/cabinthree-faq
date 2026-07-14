@@ -52,6 +52,16 @@ How it renders:
   caption below the player — always include one.
 - Styling lives in `styles.css` under `.shorts-player` and `.video-player`.
 
+Shorts also power **Cabin Channel 3** (`channel.html` + `channel.js`, the 📺
+hero button): a swipeable feed (swipe up/left = next, down/right = back,
+tap = pause) that auto-advances via the YouTube IFrame API. The video list is
+the channel's database, `channel-videos.json` — the feed plays exactly what's
+in that file. Watched IDs live in localStorage (`cabin3-watched-shorts`) so
+unseen videos play first; once everything's watched the memory resets and the
+loop starts fresh. Long-form videos are deliberately excluded. The
+`channel-videos` skill (`.claude/skills/channel-videos/`) asks whether newly
+added Shorts should join the channel.
+
 Rules:
 
 - Prefer Shorts for quick topic tutorials; long-form videos are fine when the

@@ -10,6 +10,10 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.18.0 — 2026-07-12
+- New Cabin Channel 3: a swipeable feed (📺 button on the homepage) of the cabin's video shorts. Tap play once, then each video auto-advances - or swipe up for the next one and down to go back, just like a reel. Tap to pause.
+- The channel remembers what you've watched on your device and plays new-to-you videos first. Once you've seen everything, it resets and loops from the top.
+
 ## 1.17.1 — 2026-07-12
 - Updated the latte walkthrough video on the Coffee & Tea page to the new version.
 
