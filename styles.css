@@ -221,6 +221,82 @@ h1 {
   margin-top: 1rem;
 }
 
+.search {
+  position: relative;
+  /* the reveal animation gives sibling sections their own stacking contexts;
+     lift the search above them so the results dropdown overlays Quick Rules */
+  z-index: 45;
+  margin-top: 0.4rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.85rem 1.1rem;
+  font: 500 1rem "Manrope", sans-serif;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(31, 43, 42, 0.05);
+}
+
+.search-input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.search-hit {
+  display: block;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  color: var(--ink);
+  border-bottom: 1px solid color-mix(in srgb, var(--line), white 40%);
+}
+
+.search-hit:hover,
+.search-hit:focus-visible {
+  background: color-mix(in srgb, var(--accent), white 92%);
+}
+
+.search-hit-topic {
+  display: block;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.search-hit-line {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.search-hit-line mark {
+  background: color-mix(in srgb, var(--accent-2), white 70%);
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+.search-empty {
+  margin: 0;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+}
+
 .rules {
   background: rgba(255, 253, 248, 0.72);
   border: 1px solid var(--line);

@@ -9,6 +9,15 @@ only on pushes to `main` (`.github/workflows/pages.yml`).
 See `AGENTS.md` for general content rules (no Notion metadata, preserve FAQ
 wording, etc.).
 
+## Search
+
+`search.js` powers the homepage search box: on first focus it fetches every
+topic file from `TOPIC_MAP` (now in the shared `topics.js`, loaded by both
+`index.html` and `topic.html`), indexes it line by line, and fuzzy-scores
+matches as you type (exact > prefix > substring > one-edit-away typo). The
+changelog and install pages are excluded via `SEARCH_EXCLUDE`. New topics are
+searchable automatically once they're in `TOPIC_MAP` — no index to rebuild.
+
 ## Icons and PWA
 
 `favicon.svg` is the source cabin icon; the PNGs (`favicon-32.png`,

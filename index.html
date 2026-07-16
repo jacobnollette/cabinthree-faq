@@ -50,6 +50,17 @@
     </header>
 
     <main>
+      <section class="search reveal" aria-label="Search the FAQ">
+        <input
+          id="faq-search"
+          class="search-input"
+          type="search"
+          placeholder="Search the FAQ — try “wifi password” or “grill”"
+          autocomplete="off"
+        />
+        <div id="search-results" class="search-results" hidden></div>
+      </section>
+
       <section class="rules reveal" aria-labelledby="quick-rules-title">
         <h2 id="quick-rules-title">Quick Rules</h2>
         <div class="rule-list">
@@ -95,6 +106,8 @@
       <p><span id="year"></span></p>
     </footer>
 
+    <script src="topics.js"></script>
+    <script src="search.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
