@@ -18,6 +18,14 @@ matches as you type (exact > prefix > substring > one-edit-away typo). The
 changelog and install pages are excluded via `SEARCH_EXCLUDE`. New topics are
 searchable automatically once they're in `TOPIC_MAP` — no index to rebuild.
 
+`search-tags.json` adds contextual tags per topic — curated concept words
+("tacos", "doctor", "swimming") plus a display `category` — so queries hit
+the right page even when the word never appears in the text. Tag-driven hits
+show the category chip with a "· related" attribution. When you add a topic
+or notable content (especially places on Around Town), add matching tags
+there too. Tags rank slightly below real text matches, so they never bury a
+literal hit.
+
 ## Icons and PWA
 
 `favicon.svg` is the source cabin icon; the PNGs (`favicon-32.png`,

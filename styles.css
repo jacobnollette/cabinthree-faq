@@ -285,6 +285,16 @@ h1 {
   font-size: 0.95rem;
 }
 
+.search-hit-category {
+  float: right;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: color-mix(in srgb, var(--ink), white 35%);
+  background: color-mix(in srgb, var(--accent), white 90%);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+}
+
 .search-hit-line mark {
   background: color-mix(in srgb, var(--accent-2), white 70%);
   border-radius: 3px;

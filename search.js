@@ -71,6 +71,16 @@ function bestScore(token, wordList) {
 }
 
 async function buildIndex() {
+  // Contextual tags: curated concept words per topic (search-tags.json), so
+  // queries like "tacos" or "doctor" hit the right page even when the word
+  // never appears in the text. Results attribute these hits to the category.
+  let tagDb = {};
+  try {
+    tagDb = await fetch('search-tags.json').then((r) => (r.ok ? r.json() : {}));
+  } catch {
+    // tags are an enhancement - search still works without them
+  }
+
   const entries = [];
   const jobs = Object.entries(TOPIC_MAP)
     .filter(([slug]) => !SEARCH_EXCLUDE.has(slug))
@@ -78,6 +88,9 @@ async function buildIndex() {
       try {
         const text = await fetch(file).then((r) => (r.ok ? r.text() : ''));
         const titleWords = words(title);
+        const meta = tagDb[slug] || {};
+        const category = meta.category || '';
+        const tagWords = words((meta.tags || []).join(' '));
         let sectionWords = [];
         for (const raw of text.split('\n')) {
           const line = stripMarkdown(raw);
@@ -85,7 +98,7 @@ async function buildIndex() {
             sectionWords = words(line); // e.g. "Wi-Fi and calls"
           }
           if (line.length < 8) continue;
-          entries.push({ slug, title, titleWords, sectionWords, line, lineWords: words(line) });
+          entries.push({ slug, title, titleWords, sectionWords, category, tagWords, line, lineWords: words(line) });
         }
       } catch {
         // page unavailable - skip it
@@ -102,18 +115,23 @@ function search(query) {
   for (const entry of searchIndex) {
     let total = 0;
     let ok = true;
+    let tagMatched = false;
     for (const token of tokens) {
       const inLine = bestScore(token, entry.lineWords);
       const inTitle = bestScore(token, entry.titleWords);
       const inSection = bestScore(token, entry.sectionWords);
-      // a token may match the line itself, the topic title, or the section
-      // heading the line sits under (so "wifi password" finds the password
-      // line inside the "Wi-Fi and calls" section)
-      const s = Math.max(inLine, inTitle * 0.9, inSection * 0.95);
+      const inTags = bestScore(token, entry.tagWords);
+      // a token may match the line itself, the topic title, the section
+      // heading the line sits under, or the topic's contextual tags (so
+      // "tacos" finds Around Town and "doctor" finds Health Care)
+      const s = Math.max(inLine, inTitle * 0.9, inSection * 0.95, inTags * 0.85);
       if (!s) { ok = false; break; }
+      if (s === inTags * 0.85 && inTags > Math.max(inLine, inTitle, inSection)) {
+        tagMatched = true;
+      }
       total += s;
     }
-    if (ok) scored.push({ ...entry, score: total });
+    if (ok) scored.push({ ...entry, tagMatched, score: total });
   }
   scored.sort((a, b) => b.score - a.score);
   // keep the best line per topic first, at most two lines per topic
@@ -149,7 +167,7 @@ function render(hits, query) {
   resultsEl.innerHTML = hits
     .map(
       (h) => `<a class="search-hit" href="topic.html?topic=${h.slug}">
-        <span class="search-hit-topic">${h.title}</span>
+        <span class="search-hit-topic">${h.title}${h.category ? `<span class="search-hit-category">${h.category}${h.tagMatched ? ' · related' : ''}</span>` : ''}</span>
         <span class="search-hit-line">${highlight(h.line.slice(0, 160), tokens)}</span>
       </a>`
     )
