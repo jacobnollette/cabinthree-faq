@@ -10,6 +10,11 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.19.0 — 2026-07-12
+- Added search to the homepage: type a couple of words and matching FAQ lines appear instantly, with the matching topic linked. It's typo-friendly - "vaccum" still finds the Vacuum page and "expresso" finds espresso.
+- Search understands context, not just exact words: "tacos" finds the restaurants, "doctor" finds Health Care, "swimming" finds the lake page. Results show a category chip, with a "related" note when the match came from context.
+- Video tutorials now lead their pages: every topic with videos shows them in a "▶ Video tutorials" call-out at the top, with the written details below. (Videos documenting a known issue stay with the issue.)
+
 ## 1.18.1 — 2026-07-12
 - Fixed Cabin Channel 3 autoplay: the player now pre-loads while you're looking at the page, so tapping play starts the video (and the rest of the loop) immediately. If a phone still blocks sound-on autoplay, the channel starts muted with a "tap for sound" chip.
 

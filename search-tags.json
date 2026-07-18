@@ -1,0 +1,124 @@
+{
+  "around-town": {
+    "category": "Food, Shopping & Fun",
+    "tags": [
+      "restaurant", "restaurants", "food", "eat", "eating", "dining", "dinner", "lunch", "breakfast", "brunch",
+      "pizza", "burger", "burgers", "ribs", "steak", "mexican", "tacos", "burrito", "italian", "pasta", "supper club",
+      "bar", "brewery", "beer", "drinks", "ice cream", "sundae", "donuts", "doughnuts", "bakery", "scones", "popcorn",
+      "snacks", "treats", "grocery", "groceries", "supermarket", "shopping", "store", "stores", "bookstore", "books",
+      "movie", "movies", "cinema", "theater", "theatre", "mini golf", "minigolf", "golf", "bike", "bikes", "bicycle",
+      "outdoor gear", "fishing", "bait", "tackle", "day trip", "things to do", "activities", "fun", "rainy day",
+      "state park", "hiking", "mississippi", "headwaters", "nevis", "dorset", "park rapids", "bemidji", "walker"
+    ]
+  },
+  "bedrooms": {
+    "category": "Sleeping & Linens",
+    "tags": [
+      "bed", "beds", "bedding", "sleep", "sleeping", "sheets", "linens", "pillow", "pillows", "blanket", "blankets",
+      "towels", "towel", "beach towel", "hand towel", "laundry bags", "blue bags", "murphy", "queen", "full size",
+      "hair dryer", "hairdryer", "breaker", "closet"
+    ]
+  },
+  "binoculars": {
+    "category": "Gear",
+    "tags": ["binoculars", "birdwatching", "birds", "wildlife", "viewing", "optics"]
+  },
+  "climate": {
+    "category": "Heating & Cooling",
+    "tags": [
+      "heat", "heating", "heater", "cool", "cooling", "cold", "hot", "temperature", "thermostat", "ac", "air conditioning",
+      "air conditioner", "mini split", "minisplit", "heat pump", "fujitsu", "remote", "hepa", "air filter", "air quality",
+      "smoke", "wildfire", "dyson", "fan", "porch heat", "winter", "comfort"
+    ]
+  },
+  "coffee": {
+    "category": "Coffee & Tea",
+    "tags": [
+      "coffee", "espresso", "expresso", "latte", "lattes", "americano", "cappuccino", "brew", "breville", "grinder",
+      "beans", "caffeine", "milk", "froth", "steam", "steamed milk", "barista", "tea", "teapot", "ginger", "kettle",
+      "drip coffee", "coffee maker", "filters", "filtered water", "morning drink"
+    ]
+  },
+  "deck": {
+    "category": "Outdoor Living",
+    "tags": ["deck", "umbrella", "umbrellas", "patio", "cushions", "deck box", "wind", "picture window", "outdoor furniture"]
+  },
+  "dock-boating-beach": {
+    "category": "Lake & Water",
+    "tags": [
+      "lake", "water", "swim", "swimming", "beach", "dock", "boat", "boats", "boating", "kayak", "kayaks", "canoe",
+      "paddle", "paddleboard", "paddle board", "sup", "floaties", "floats", "noodles", "boogie board", "life jacket",
+      "watersports", "waterfront", "shore"
+    ]
+  },
+  "ev": {
+    "category": "Electric Vehicles",
+    "tags": [
+      "ev", "electric car", "electric vehicle", "tesla", "charger", "charging", "charge", "plug in", "supercharger",
+      "ccs", "amps", "kilowatt", "fiat", "rivian", "car", "vehicle"
+    ]
+  },
+  "fire": {
+    "category": "Campfires & Safety",
+    "tags": [
+      "fire", "fires", "campfire", "bonfire", "solo stove", "firepit", "fire pit", "wood", "firewood", "burn", "burning",
+      "burn ban", "fire ban", "smores", "marshmallows", "roast", "sparks", "ash", "ashes", "extinguisher", "lighter"
+    ]
+  },
+  "garbage": {
+    "category": "Trash & Recycling",
+    "tags": ["garbage", "trash", "waste", "recycling", "bin", "bins", "dumpster", "wildlife", "raccoon", "bears"]
+  },
+  "health-care": {
+    "category": "Health & Emergencies",
+    "tags": [
+      "doctor", "doctors", "sick", "ill", "illness", "hurt", "injury", "injured", "emergency", "er", "hospital",
+      "clinic", "urgent care", "walk in", "medicine", "medication", "prescription", "pharmacy", "pharmacies", "drugstore",
+      "911", "ambulance", "first aid", "nurse", "health", "medical", "stitches", "fever", "tick", "sting"
+    ]
+  },
+  "kitchen": {
+    "category": "Cooking & Kitchen",
+    "tags": [
+      "kitchen", "cook", "cooking", "grill", "grilling", "bbq", "barbecue", "weber", "propane", "gas", "smoker",
+      "dishes", "dishwasher", "knives", "sink", "stove", "oven", "popcorn", "microwave", "pots", "pans", "utensils",
+      "food storage", "pitcher", "pitchers"
+    ]
+  },
+  "laundry": {
+    "category": "Laundry",
+    "tags": ["laundry", "washer", "washing machine", "dryer", "detergent", "clothes", "wash"]
+  },
+  "septic-drains": {
+    "category": "Plumbing & Septic",
+    "tags": [
+      "septic", "drain", "drains", "plumbing", "toilet", "flush", "clog", "clogged", "grease", "sink", "shower drain",
+      "wipes", "sewer", "pipes"
+    ]
+  },
+  "technology": {
+    "category": "Tech & Connectivity",
+    "tags": [
+      "internet", "wifi", "wi-fi", "wireless", "network", "password", "connection", "fiber", "ethernet", "cell service",
+      "phone calls", "wifi calling", "streaming", "smart home", "home assistant", "automation", "lights", "lighting",
+      "aurora", "northern lights", "tv", "television", "apple tv", "youtube tv", "netflix", "music", "stereo", "speakers",
+      "homepod", "homepods", "sound", "volume", "hdmi", "gaming", "console", "print", "printer", "printing", "scanner",
+      "scanning", "computer", "imac", "mac", "work from home", "remote work", "zoom"
+    ]
+  },
+  "vacuum": {
+    "category": "Cleaning",
+    "tags": ["vacuum", "vaccum", "dyson", "clean", "cleaning", "floors", "sweep", "dust", "crumbs", "shop vac", "mess"]
+  },
+  "walkie-talkies": {
+    "category": "Gear",
+    "tags": ["walkie talkie", "walkie talkies", "radios", "two way radio", "kids", "communication", "usb-c", "recharge"]
+  },
+  "weather": {
+    "category": "Weather & Storms",
+    "tags": [
+      "weather", "storm", "storms", "thunderstorm", "tornado", "wind", "winds", "rain", "hail", "shelter", "safety",
+      "power outage", "outage", "electricity out", "forecast", "warning", "siren", "evacuate", "lightning"
+    ]
+  }
+}

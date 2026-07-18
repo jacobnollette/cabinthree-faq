@@ -1,39 +1,4 @@
-const TOPIC_MAP = {
-  'around-town': { title: 'Around Town', file: 'FAQ/Around Town.md' },
-  changelog: { title: 'Changelog', file: 'CHANGELOG.md' },
-  install: { title: 'Make This an App', file: 'install.md' },
-  bedrooms: { title: 'Bedrooms, Sheets & Towels', file: 'FAQ/Bedrooms.md' },
-  binoculars: { title: 'Binoculars', file: 'FAQ/Binoculars.md' },
-  climate: { title: 'Climate', file: 'FAQ/Climate.md' },
-  coffee: { title: 'Coffee & Tea', file: 'FAQ/Coffee.md' },
-  deck: { title: 'Deck & Umbrellas', file: 'FAQ/Deck and Umbrellas.md' },
-  'dock-boating-beach': { title: 'Dock, Boating & Beach Toys', file: 'FAQ/Dock, Boating, and Beach toys.md' },
-  ev: { title: 'EV', file: 'FAQ/EV.md' },
-  fire: { title: 'Fire', file: 'FAQ/Fire.md' },
-  garbage: { title: 'Garbage', file: 'FAQ/Garbage.md' },
-  'health-care': { title: 'Health Care', file: 'FAQ/Health Care.md' },
-  kitchen: { title: 'Kitchen, Cooking & Grilling', file: 'FAQ/Kitchen and Grilling.md' },
-  laundry: { title: 'Laundry', file: 'FAQ/Laundry.md' },
-  'septic-drains': { title: 'Septic & Drains', file: 'FAQ/Septic and drains.md' },
-  technology: { title: 'Technology', file: 'FAQ/Technology.md' },
-  vacuum: { title: 'Vacuum', file: 'FAQ/Vacuum.md' },
-  'walkie-talkies': { title: 'Walkie Talkies', file: 'FAQ/Walkie Talkies.md' },
-  weather: { title: 'Weather', file: 'FAQ/Weather.md' }
-};
-
-// Old topic slugs from before the 2026 consolidation keep working
-const TOPIC_ALIASES = {
-  'home-assistant': 'technology',
-  lighting: 'technology',
-  'home-automation': 'technology',
-  'internet-wifi': 'technology',
-  'printer-scanner': 'technology',
-  work: 'technology',
-  grills: 'kitchen',
-  'tv-video-audio': 'technology',
-  'audio-video': 'technology',
-  restaurants: 'around-town'
-};
+// TOPIC_MAP and TOPIC_ALIASES come from topics.js (shared with search.js).
 
 const SHORTS_URL_RE = /^https?:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([A-Za-z0-9_-]{6,})/;
 const VIDEO_URL_RE = /^https?:\/\/(?:(?:www\.|m\.)?youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/;
@@ -184,6 +149,47 @@ function upgradeContributeCallouts(root, topicTitle) {
   });
 }
 
+// Hoist every video embed into a labeled "Video tutorials" rail at the top
+// of the page, so videos always lead and the written content runs below.
+// Videos inside known-issue callouts stay put - they document the issue.
+// Any leftover "Video tutorial(s):" intro lines are removed along the way.
+function hoistVideosToTop(root) {
+  const players = [...root.querySelectorAll('.shorts-player, .video-player')].filter(
+    (fig) => !fig.closest('.issue-callout')
+  );
+  if (!players.length) {
+    return;
+  }
+
+  const rail = document.createElement('aside');
+  rail.className = 'video-rail';
+  const label = document.createElement('p');
+  label.className = 'video-rail-label';
+  label.textContent = players.length === 1 ? '▶ Video tutorial' : '▶ Video tutorials';
+  rail.appendChild(label);
+  const items = document.createElement('div');
+  items.className = 'video-rail-items';
+  rail.appendChild(items);
+
+  for (const fig of players) {
+    const parent = fig.parentElement;
+    items.appendChild(fig);
+    // drop paragraphs the embed left empty
+    if (parent && parent.tagName === 'P' && !parent.textContent.trim() && !parent.querySelector('*')) {
+      parent.remove();
+    }
+  }
+
+  // remove now-orphaned "Video tutorial:"-style intro lines
+  for (const p of [...root.querySelectorAll('p')]) {
+    if (/^video tutorials?:?\s*$/i.test(p.textContent.trim())) {
+      p.remove();
+    }
+  }
+
+  root.prepend(rail);
+}
+
 const params = new URLSearchParams(window.location.search);
 const requestedSlug = params.get('topic') || 'technology';
 const slug = TOPIC_ALIASES[requestedSlug] || requestedSlug;
@@ -224,6 +230,7 @@ if (!topic) {
         upgradeVideoEmbeds(contentEl);
         upgradeIssueCallouts(contentEl, topic.title);
         upgradeContributeCallouts(contentEl, topic.title);
+        hoistVideosToTop(contentEl);
       } else {
         contentEl.textContent = markdown;
       }

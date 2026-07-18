@@ -9,6 +9,23 @@ only on pushes to `main` (`.github/workflows/pages.yml`).
 See `AGENTS.md` for general content rules (no Notion metadata, preserve FAQ
 wording, etc.).
 
+## Search
+
+`search.js` powers the homepage search box: on first focus it fetches every
+topic file from `TOPIC_MAP` (now in the shared `topics.js`, loaded by both
+`index.html` and `topic.html`), indexes it line by line, and fuzzy-scores
+matches as you type (exact > prefix > substring > one-edit-away typo). The
+changelog and install pages are excluded via `SEARCH_EXCLUDE`. New topics are
+searchable automatically once they're in `TOPIC_MAP` — no index to rebuild.
+
+`search-tags.json` adds contextual tags per topic — curated concept words
+("tacos", "doctor", "swimming") plus a display `category` — so queries hit
+the right page even when the word never appears in the text. Tag-driven hits
+show the category chip with a "· related" attribution. When you add a topic
+or notable content (especially places on Around Town), add matching tags
+there too. Tags rank slightly below real text matches, so they never bury a
+literal hit.
+
 ## Icons and PWA
 
 `favicon.svg` is the source cabin icon; the PNGs (`favicon-32.png`,
@@ -70,9 +87,13 @@ Rules:
 - Regular `[text](url)` links are never embedded — use a link when you
   deliberately want plain text, image syntax when you want the player.
 - Unlisted videos embed fine as long as embedding is enabled on the video.
-- Put embeds after the topic's bullet list, introduced by a short line like
-  `Video tutorial:` or `Video tutorials:`, with a blank line between each
-  embed so each renders as its own player.
+- Embeds can live anywhere in the markdown (end of the page is conventional),
+  with a blank line between each so each renders as its own player. At render
+  time `hoistVideosToTop()` in `topic.js` moves every player into a labeled
+  "▶ Video tutorials" rail at the top of the page and strips any leftover
+  `Video tutorial:` intro lines — videos always lead, written content runs
+  below. The one exception: embeds inside `[!ISSUE]` callouts stay with
+  their issue. Rail styling lives in `styles.css` under `.video-rail`.
 
 ## Known issues: `[!ISSUE]` callouts
 
