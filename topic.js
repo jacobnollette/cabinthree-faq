@@ -149,6 +149,47 @@ function upgradeContributeCallouts(root, topicTitle) {
   });
 }
 
+// Hoist every video embed into a labeled "Video tutorials" rail at the top
+// of the page, so videos always lead and the written content runs below.
+// Videos inside known-issue callouts stay put - they document the issue.
+// Any leftover "Video tutorial(s):" intro lines are removed along the way.
+function hoistVideosToTop(root) {
+  const players = [...root.querySelectorAll('.shorts-player, .video-player')].filter(
+    (fig) => !fig.closest('.issue-callout')
+  );
+  if (!players.length) {
+    return;
+  }
+
+  const rail = document.createElement('aside');
+  rail.className = 'video-rail';
+  const label = document.createElement('p');
+  label.className = 'video-rail-label';
+  label.textContent = players.length === 1 ? '▶ Video tutorial' : '▶ Video tutorials';
+  rail.appendChild(label);
+  const items = document.createElement('div');
+  items.className = 'video-rail-items';
+  rail.appendChild(items);
+
+  for (const fig of players) {
+    const parent = fig.parentElement;
+    items.appendChild(fig);
+    // drop paragraphs the embed left empty
+    if (parent && parent.tagName === 'P' && !parent.textContent.trim() && !parent.querySelector('*')) {
+      parent.remove();
+    }
+  }
+
+  // remove now-orphaned "Video tutorial:"-style intro lines
+  for (const p of [...root.querySelectorAll('p')]) {
+    if (/^video tutorials?:?\s*$/i.test(p.textContent.trim())) {
+      p.remove();
+    }
+  }
+
+  root.prepend(rail);
+}
+
 const params = new URLSearchParams(window.location.search);
 const requestedSlug = params.get('topic') || 'technology';
 const slug = TOPIC_ALIASES[requestedSlug] || requestedSlug;
@@ -189,6 +230,7 @@ if (!topic) {
         upgradeVideoEmbeds(contentEl);
         upgradeIssueCallouts(contentEl, topic.title);
         upgradeContributeCallouts(contentEl, topic.title);
+        hoistVideosToTop(contentEl);
       } else {
         contentEl.textContent = markdown;
       }

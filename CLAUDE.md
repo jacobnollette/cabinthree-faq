@@ -87,9 +87,13 @@ Rules:
 - Regular `[text](url)` links are never embedded — use a link when you
   deliberately want plain text, image syntax when you want the player.
 - Unlisted videos embed fine as long as embedding is enabled on the video.
-- Put embeds after the topic's bullet list, introduced by a short line like
-  `Video tutorial:` or `Video tutorials:`, with a blank line between each
-  embed so each renders as its own player.
+- Embeds can live anywhere in the markdown (end of the page is conventional),
+  with a blank line between each so each renders as its own player. At render
+  time `hoistVideosToTop()` in `topic.js` moves every player into a labeled
+  "▶ Video tutorials" rail at the top of the page and strips any leftover
+  `Video tutorial:` intro lines — videos always lead, written content runs
+  below. The one exception: embeds inside `[!ISSUE]` callouts stay with
+  their issue. Rail styling lives in `styles.css` under `.video-rail`.
 
 ## Known issues: `[!ISSUE]` callouts
 
