@@ -1,9 +1,34 @@
 {
   "videos": [
-    { "id": "cBRnwyKxj9A", "title": "Dyson vacuum tutorial - basic training - day one", "topic": "Vacuum" },
-    { "id": "oKgUVgPpVX0", "title": "Dyson vacuum tutorial - basic training - day two", "topic": "Vacuum" },
-    { "id": "GGs4J1iz76s", "title": "How to operate the stereo", "topic": "Technology" },
-    { "id": "ZHFnLO6W6h4", "title": "Kitchen tutorial", "topic": "Kitchen, Cooking & Grilling" },
-    { "id": "P3FepTbQTuk", "title": "issue - water pitchers (light!)", "topic": "Kitchen, Cooking & Grilling" }
+    {
+      "id": "cBRnwyKxj9A",
+      "title": "Dyson vacuum tutorial - basic training - day one",
+      "topic": "Vacuum"
+    },
+    {
+      "id": "oKgUVgPpVX0",
+      "title": "Dyson vacuum tutorial - basic training - day two",
+      "topic": "Vacuum"
+    },
+    {
+      "id": "GGs4J1iz76s",
+      "title": "How to operate the stereo",
+      "topic": "Technology"
+    },
+    {
+      "id": "ZHFnLO6W6h4",
+      "title": "Kitchen tutorial",
+      "topic": "Kitchen, Cooking & Grilling"
+    },
+    {
+      "id": "P3FepTbQTuk",
+      "title": "issue - water pitchers (light!)",
+      "topic": "Kitchen, Cooking & Grilling"
+    },
+    {
+      "id": "uZ2m4pi8ZpI",
+      "title": "Chain the damn dumpster!",
+      "topic": "Garbage"
+    }
   ]
 }

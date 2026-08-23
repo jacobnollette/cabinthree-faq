@@ -10,6 +10,9 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.21.3 — 2026-08-23
+- Added a video to Garbage showing how to chain the dumpster shut so the bears can't get into it. It's on Cabin Channel 3 too.
+
 ## 1.21.2 — 2026-08-23
 - Added Jasper's Jubilee Theater to day trips - a family-run live variety show a few minutes up Highway 34, matinees June through September.
 

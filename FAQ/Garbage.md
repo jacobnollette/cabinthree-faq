@@ -2,3 +2,7 @@
 - Theres is a dumpster across the road - there are bears in the area - when you chain it back up, make sure bears cannot physically open it
 - Theres also a dump (Hubbard county southern transfer station) - you drop off trash, and co-mingled recycling 
 - Dump is off of Henrietta - take a left when you’re going into town — we use it all the time!
+
+Video tutorials:
+
+![Chain the damn dumpster!](https://www.youtube.com/shorts/uZ2m4pi8ZpI)
