@@ -1,3 +1,15 @@
+## The towns around us
+
+Drive times are from the cabin.
+
+- **Dorset** - 5 minutes north. Four restaurants on one short street, the general store, and the Heartland Trail running through it. The Taste of Dorset festival takes over the town each August
+- **Nevis** - 10 minutes east on Highway 34. A small main street with a bakery, coffee and ice cream, and the giant muskie statue on the lakefront - a good short outing with kids
+- **Park Rapids** - 15 minutes west. The town for anything you actually need: groceries, hardware, the hospital and clinics, downtown shops, and the movie theater
+- **Walker** - about 30 minutes east, on the south shore of Leech Lake. Shops along the water and Reeds, the big outfitter
+- **Itasca State Park** - about 40 minutes northwest. Walk across the headwaters of the Mississippi, then the old-growth pines, the bike trail, and Douglas Lodge. Worth a whole day
+- **Detroit Lakes** - about an hour southwest. A bigger lake town with a long public beach and a busy summer events calendar
+- **Bemidji** - about an hour north. Paul and Babe on the lakefront, Bemidji State, and the closest big-box shopping and bigger movie theater
+
 ## Restaurants
 
 - [Bullwinkles on 34](https://www.google.com/maps/search/?api=1&query=Bullwinkles+on+34+201+State+Hwy+34+Nevis+MN+56467) - 201 State Hwy 34, Nevis - great burgers, soup, and ribs

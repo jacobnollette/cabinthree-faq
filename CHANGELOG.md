@@ -10,6 +10,9 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.21.0 — 2026-08-23
+- Around Town now opens with the towns around us - Dorset, Nevis, Park Rapids, Walker, Itasca State Park, Detroit Lakes, and Bemidji - each with the drive time from the cabin and what it's known for.
+
 ## 1.20.0 — 2026-08-23
 - Added a Services section to Around Town, starting with KUB Custom PC in Park Rapids - custom-built and refurbished computers, plus repairs and diagnostics if a laptop gives out on you up here.
 - Filled out the Muskie Waters Co. listing: alongside the coffee and hand-dipped ice cream, there's a gift shop in back with candy, souvenirs, and shirts.
