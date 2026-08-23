@@ -10,6 +10,9 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.22.0 — 2026-08-23
+- The site moved to **cabinthree.info** — shorter and easier to type. Old faq.cabinthree.info links, bookmarks, and QR codes all redirect to the same page at the new address, so nothing breaks.
+
 ## 1.21.4 — 2026-08-23
 - Redrew the pine-tree icon in a paper-cut style, closer to the hand-cut wooden sign on the cabin — chunky boughs with blunt tips, and the whole tree now fits in the frame, including the sweeping root at the base that used to get cut off. The app icon, favicon, and homepage logo all use the new artwork.
 

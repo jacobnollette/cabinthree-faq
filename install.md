@@ -1,8 +1,8 @@
-This site lives at **faq.cabinthree.info**, but you can add it to your phone's home screen so it opens like a real app - full-screen, with the little cabin icon. Takes about ten seconds.
+This site lives at **cabinthree.info**, but you can add it to your phone's home screen so it opens like a real app - full-screen, with the little cabin icon. Takes about ten seconds.
 
 ## iPhone or iPad (Safari)
 
-1. Open **faq.cabinthree.info** in **Safari** (it has to be Safari, not Chrome).
+1. Open **cabinthree.info** in **Safari** (it has to be Safari, not Chrome).
 2. Tap the **Share** button - the square with an arrow pointing up - at the bottom of the screen.
 3. Scroll down and tap **Add to Home Screen**. (If you don't see it, tap **Edit Actions** at the bottom and add it.)
 4. Tap **Add** in the top-right corner. The cabin icon lands on your home screen.
@@ -11,7 +11,7 @@ Apple's own steps: [Turn a website into an app in Safari](https://support.apple.
 
 ## Android (Chrome)
 
-1. Open **faq.cabinthree.info** in **Chrome**.
+1. Open **cabinthree.info** in **Chrome**.
 2. Tap the **⋮** menu in the top-right corner.
 3. Tap **Add to Home screen** (it may say **Install app**).
 4. Tap **Add** or **Install**, then confirm.
