@@ -19,7 +19,7 @@
 - [Dorset House](https://www.google.com/maps/search/?api=1&query=Dorset+House+Family+Restaurant+Dorset+MN) - on the main street in Dorset - probably the largest ice cream selection in the area, with an old-fashioned soda fountain and crazy sundaes. They also have very good pizza
 - [Flour Chicks Bakery](https://www.google.com/maps/search/?api=1&query=Flour+Chicks+Bakery+206+Bunyan+Trails+Rd+Nevis+MN+56467) - 206 Bunyan Trails Rd, Nevis - really good from-scratch donuts. Closed Sunday and Monday
 - [Molly Poppin's Gourmet Snacks](https://www.google.com/maps/search/?api=1&query=Molly+Poppins+Gourmet+Snacks+220+Main+Ave+S+Park+Rapids+MN+56470) - 220 Main Ave S, Park Rapids, right next to The Good Life - really good popcorn, highly recommended
-- [Muskie Waters Co.](https://www.google.com/maps/search/?api=1&query=Muskie+Waters+Co+118+Bunyan+Trails+Rd+Nevis+MN+56467) - 118 Bunyan Trails Rd, Nevis - good coffee and ice cream, and their scones are really good
+- [Muskie Waters Co.](https://www.google.com/maps/search/?api=1&query=Muskie+Waters+Co+118+Bunyan+Trails+Rd+Nevis+MN+56467) - 118 Bunyan Trails Rd, Nevis - good coffee and hand-dipped ice cream, and their scones are really good. There's a gift shop in back too - candy, souvenirs, and shirts, and it's a fun stop with kids
 
 ## Groceries
 
@@ -32,6 +32,10 @@
 
 - [Northern Cycle](https://www.google.com/maps/search/?api=1&query=Northern+Cycle+100+Mill+Rd+Park+Rapids+MN+56470) - 100 Mill Rd, Park Rapids - the local bike shop (sales, rentals, and repairs)
 - [Reeds Family Outdoor Outfitters](https://www.google.com/maps/search/?api=1&query=Reeds+Family+Outdoor+Outfitters+522+Minnesota+Ave+W+Walker+MN+56484) - 522 Minnesota Ave W, Walker - a big outdoor store for fishing, hunting, and lake gear
+
+## Services
+
+- [KUB Custom PC](https://www.google.com/maps/search/?api=1&query=KUB+Custom+PC+266+Henrietta+Ave+N+Park+Rapids+MN+56470) - 266 Henrietta Ave N (south entrance), Park Rapids - (218) 252-3981 - custom-built and refurbished computers, plus repairs, upgrades, and diagnostics if a laptop dies on you up here
 
 ## Day trips and rainy days
 

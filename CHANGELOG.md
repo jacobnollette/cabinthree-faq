@@ -10,6 +10,10 @@ This project follows [semantic versioning](https://semver.org) — **MAJOR.MINOR
 
 **Breaking changes to date: none.** Every topic consolidation and slug rename has shipped with a redirect, so links that worked before still work today — which is why the site is still on a 1.x version.
 
+## 1.20.0 — 2026-08-23
+- Added a Services section to Around Town, starting with KUB Custom PC in Park Rapids - custom-built and refurbished computers, plus repairs and diagnostics if a laptop gives out on you up here.
+- Filled out the Muskie Waters Co. listing: alongside the coffee and hand-dipped ice cream, there's a gift shop in back with candy, souvenirs, and shirts.
+
 ## 1.19.0 — 2026-07-12
 - Added search to the homepage: type a couple of words and matching FAQ lines appear instantly, with the matching topic linked. It's typo-friendly - "vaccum" still finds the Vacuum page and "expresso" finds espresso.
 - Search understands context, not just exact words: "tacos" finds the restaurants, "doctor" finds Health Care, "swimming" finds the lake page. Results show a category chip, with a "related" note when the match came from context.
